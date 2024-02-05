@@ -1,0 +1,33 @@
+1706682345
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:19:"jobs/test-qv853-r88";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:27:{s:5:"title";s:4:"test";s:4:"date";s:27:"2023-12-08T18:40:11.611360Z";s:8:"modified";s:27:"2023-12-08T18:40:11.611377Z";s:5:"jobid";i:1477073;s:8:"currency";N;s:7:"address";s:0:"";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/QV853R88";s:4:"hash";s:8:"QV853R88";s:12:"organization";i:2139192;s:10:"salary_min";s:0:"";s:10:"salary_max";s:0:"";s:7:"avg_sal";s:0:"";s:12:"is_published";b:0;s:9:"is_remote";N;s:10:"created_at";s:27:"2023-12-08T18:40:11.611360Z";s:10:"updated_at";s:27:"2023-12-08T18:40:11.611377Z";s:5:"owner";i:257387;s:16:"contract_details";s:9:"full_time";s:9:"headcount";i:1;s:12:"compensation";s:10:"Negotiable";s:8:"hired_at";i:0;s:12:"submitted_at";i:0;s:12:"interview_at";i:0;s:13:"custom_fields";a:0:{}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:0:"";}s:3:"tag";a:1:{i:0;s:0:"";}}s:9:"published";b:0;}s:11:"frontmatter";s:646:"title: test
+date: '2023-12-08T18:40:11.611360Z'
+modified: '2023-12-08T18:40:11.611377Z'
+jobid: 1477073
+currency: null
+address: ''
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/QV853R88'
+hash: QV853R88
+organization: 2139192
+salary_min: ''
+salary_max: ''
+avg_sal: ''
+is_published: false
+is_remote: null
+created_at: '2023-12-08T18:40:11.611360Z'
+updated_at: '2023-12-08T18:40:11.611377Z'
+owner: 257387
+contract_details: full_time
+headcount: 1
+compensation: Negotiable
+hired_at: 0
+submitted_at: 0
+interview_at: 0
+custom_fields: {  }
+taxonomy:
+    category:
+        - jobs
+        - ''
+    tag:
+        - ''
+published: false";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:19:"jobs/test-qv853-r88";s:11:"storage_key";s:22:"04.jobs/test-qv853-r88";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165904;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165904;}}s:8:"checksum";s:32:"08995f05bd021e9270ced7f689dcedc6";}}

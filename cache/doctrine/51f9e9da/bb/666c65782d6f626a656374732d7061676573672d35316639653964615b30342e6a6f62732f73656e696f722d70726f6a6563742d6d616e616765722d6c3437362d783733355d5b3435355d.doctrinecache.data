@@ -1,0 +1,49 @@
+1706868872
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:37:"jobs/senior-project-manager-l476-x735";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:22:"Senior Project Manager";s:4:"date";s:27:"2024-01-29T15:52:50.221195Z";s:8:"modified";s:27:"2024-01-29T15:57:52.231627Z";s:5:"jobid";i:1576942;s:8:"currency";s:3:"USD";s:7:"address";s:49:"BTC - 11450 Grooms Road, Blue Ash, OH, 45242, USA";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/L476X735";s:4:"hash";s:8:"L476X735";s:12:"organization";i:94942;s:10:"salary_min";s:0:"";s:10:"salary_max";s:0:"";s:7:"avg_sal";s:0:"";s:12:"is_published";b:1;s:9:"is_remote";N;s:10:"created_at";s:27:"2024-01-29T15:52:50.221195Z";s:10:"updated_at";s:27:"2024-01-29T15:57:52.231627Z";s:5:"owner";i:22120;s:16:"contract_details";s:9:"temporary";s:9:"headcount";i:1;s:12:"compensation";s:10:"Negotiable";s:8:"hired_at";i:0;s:12:"submitted_at";i:16;s:12:"interview_at";i:2;s:13:"custom_fields";a:6:{s:5:"jobid";s:31:"10138 - Project Manager Level 3";s:9:"archetype";s:16:"Project Services";s:12:"managernotes";s:1462:"
+
+
+<ul><li>This PM will be supporting the Kroger fulfillment network powered by Ocado, within the Associate Technology pillar.</li><li>This is a 12 month contract to start, though there is a possibility that it would extend beyond 12 months</li><li>Candidates can be remote or local. The current team is mostly remote, though there are events/meetings where it would be beneficial to be on site at the BTC.</li><li><span data-redactor-style-cache="font-family: inherit; font-size: 0.875rem;" data-redactor-span="true" style="font-family: inherit; font-size: 0.875rem;">Pre-screen consists of 5 video questions and a games section</span></li></ul><p><span data-redactor-style-cache="font-family: inherit; font-size: 0.875rem;" data-redactor-span="true" style="font-family: inherit; font-size: 0.875rem;">﻿﻿This role is for a senior project manager to lead and deliver capabilities within the Modernized Fulfillment/Delivery Solution. The large delivery team operates in a scaled program/agile methodology so having experience working with cross functional agile scrum teams is a must.  The PM needs to be highly engaged in the work to drive teams to milestones, and effective at resolving issues requiring collaboration of many stakeholders.  They need to demonstrate strong communication within and outside of team to align dependencies. This individual will be able to keep technical teams on track and work to escalate issues as appropriate.<br></span></p>";s:14:"engagementtype";a:1:{i:0;s:8:"Contract";}s:15:"submissionnotes";s:35:"<p>Please submit at market rate</p>";s:20:"clientsubmissiontype";a:1:{i:0;s:19:"Client Portal (VMS)";}}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:16:"Project Services";}s:3:"tag";a:1:{i:0;s:10:"Management";}}}s:11:"frontmatter";s:2446:"title: 'Senior Project Manager'
+date: '2024-01-29T15:52:50.221195Z'
+modified: '2024-01-29T15:57:52.231627Z'
+jobid: 1576942
+currency: USD
+address: 'BTC - 11450 Grooms Road, Blue Ash, OH, 45242, USA'
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/L476X735'
+hash: L476X735
+organization: 94942
+salary_min: ''
+salary_max: ''
+avg_sal: ''
+is_published: true
+is_remote: null
+created_at: '2024-01-29T15:52:50.221195Z'
+updated_at: '2024-01-29T15:57:52.231627Z'
+owner: 22120
+contract_details: temporary
+headcount: 1
+compensation: Negotiable
+hired_at: 0
+submitted_at: 16
+interview_at: 2
+custom_fields:
+    jobid: '10138 - Project Manager Level 3'
+    archetype: 'Project Services'
+    managernotes: "\n\n\n<ul><li>This PM will be supporting the Kroger fulfillment network powered by Ocado, within the Associate Technology pillar.</li><li>This is a 12 month contract to start, though there is a possibility that it would extend beyond 12 months</li><li>Candidates can be remote or local. The current team is mostly remote, though there are events/meetings where it would be beneficial to be on site at the BTC.</li><li><span data-redactor-style-cache=\"font-family: inherit; font-size: 0.875rem;\" data-redactor-span=\"true\" style=\"font-family: inherit; font-size: 0.875rem;\">Pre-screen consists of 5 video questions and a games section</span></li></ul><p><span data-redactor-style-cache=\"font-family: inherit; font-size: 0.875rem;\" data-redactor-span=\"true\" style=\"font-family: inherit; font-size: 0.875rem;\">﻿﻿This role is for a senior project manager to lead and deliver capabilities within the Modernized Fulfillment/Delivery Solution. The large delivery team operates in a scaled program/agile methodology so having experience working with cross functional agile scrum teams is a must.  The PM needs to be highly engaged in the work to drive teams to milestones, and effective at resolving issues requiring collaboration of many stakeholders.  They need to demonstrate strong communication within and outside of team to align dependencies. This individual will be able to keep technical teams on track and work to escalate issues as appropriate.<br></span></p>"
+    engagementtype:
+        - Contract
+    submissionnotes: '<p>Please submit at market rate</p>'
+    clientsubmissiontype:
+        - 'Client Portal (VMS)'
+taxonomy:
+    category:
+        - jobs
+        - 'Project Services'
+    tag:
+        - Management";s:8:"markdown";s:3231:"<p>﻿Gentis Solutions is seeking a Senior Project Manager to join our team. This contract position is with one of our Fortune 50 clients interested in full-time consultants. The ideal candidates will have the required skills listed below and will be eligible and open to being hired by our client at the end of the projects duration. This position works alongside an existing team and leverages enterprise-level technologies and processes. If you would like to work at a company that has been recognized for its diversity and inclusion, its work to drive positive social change, and as an environmental leader, make sure you apply below.<br></p>
+<p><strong>﻿Requirements</strong></p>
+<ul><li>5 - 10 years of Project Management experience delivering large and/or complex projects</li><li>Experienced in managing full life-cycle projects, including schedule, budget, risk/issue management and status reporting to various levels of the organization</li><li>Expertise in applying the systems development and project management life-cycle processes involved with implementing IT solutions</li><li>Proven track record of delivering objectives on time and within budget</li><li>Experience working with agile teams and understanding of the SAFe framework</li><li>Proven problem-solving and organizational skills</li><li>Demonstrated ability in team motivation and delegation</li><li>Excellent communication and presentation skills to effectively communicate information to customers and to all levels within the organization</li><li>Ability to travel independently (0-25% depending on project assignment)</li></ul>
+<p><strong>﻿Desirable Skills</strong></p>
+<ul><li>Exhibits the behaviors of a Lean-Agile Leader with a Lean-Agile Mindset</li><li>Highly developed oral and written communications skills</li><li>Demonstrated ability to work independently and with others</li><li>High level of analytical ability</li><li>High level of interpersonal skills to work effectively with others</li><li>Ability to multi-task and work on multiple projects simultaneously</li><li>PMP certification a plus</li><li>Business Analysis skills a plus</li></ul>
+<p><strong>﻿Typical Duties</strong></p>
+<ul><li>Manage IT project planning, cost, schedule, and deliverables to meet business need</li><li>Partner with agile and non-agile teams to define, plan and deliver timely, high-quality results</li><li>Serve as project liaison with business unit</li><li>Track performance criteria for project success criteria</li><li>Responsible for assembling project team, assigning individual responsibilities, identifying appropriate resources needed and developing schedules</li><li>Establish and update project plans and budgets with actual and forecasts and, with assistance, manage deviations from plan and project parameters</li><li>Conduct project meetings, project tracking and analysis</li><li>Ensure all project objectives are clearly documented, approved and delivered to meet customer needs</li><li>Manage the integration of vendor tasks and track and review vendor deliverables</li><li>Communicate timely project status to all stakeholders</li><li>Manage project risk, develop mitigation plans, and escalate decisions and unresolved issues</li></ul>";}s:7:"storage";a:6:{s:3:"key";s:37:"jobs/senior-project-manager-l476-x735";s:11:"storage_key";s:40:"04.jobs/senior-project-manager-l476-x735";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706790037;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706790037;}}s:8:"checksum";s:32:"48b0a6e8b744468658bec8b2f032e757";}}

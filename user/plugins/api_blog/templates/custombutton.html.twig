@@ -1,0 +1,14 @@
+<div class="button-container">
+    <button id="customButton">{{ config.plugins.custombutton.button_label }}</button>
+</div>
+
+<script>
+    document.getElementById('customButton').addEventListener('click', function () {
+        // Execute your custom function when the button is clicked
+        customButtonClickFunction();
+    });
+
+    function customButtonClickFunction() {
+        alert('Button clicked!');
+    }
+</script>

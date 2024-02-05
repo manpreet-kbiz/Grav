@@ -1,0 +1,41 @@
+1706682359
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:33:"jobs/process-technician-l665678-w";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:18:"Process Technician";s:4:"date";s:27:"2023-10-26T13:52:05.156579Z";s:8:"modified";s:27:"2023-10-26T14:10:28.480894Z";s:5:"jobid";i:1420344;s:8:"currency";N;s:7:"address";s:44:"4666 E Faries Pkwy Decatur IL USA 62526-5630";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/L665678W";s:4:"hash";s:8:"L665678W";s:12:"organization";i:271590;s:10:"salary_min";s:0:"";s:10:"salary_max";s:0:"";s:7:"avg_sal";s:0:"";s:12:"is_published";b:1;s:9:"is_remote";N;s:10:"created_at";s:27:"2023-10-26T13:52:05.156579Z";s:10:"updated_at";s:27:"2023-10-26T14:10:28.480894Z";s:5:"owner";i:78004;s:16:"contract_details";s:9:"full_time";s:9:"headcount";i:1;s:12:"compensation";s:10:"Negotiable";s:8:"hired_at";i:0;s:12:"submitted_at";i:1;s:12:"interview_at";i:0;s:13:"custom_fields";a:8:{s:5:"jobid";s:13:"ADMJP00012122";s:9:"archetype";s:10:"Controller";s:12:"managernotes";s:120:"<p>Associates Degree Preferred 2 - Years&nbsp;</p><p>Software required&nbsp;</p><p>- IBM systems</p><p>- Maximo, JDE</p>";s:13:"hiringmanager";s:15:"Christine Bryan";s:14:"engagementtype";a:1:{i:0;s:8:"Contract";}s:15:"payrateguidance";s:44:"<p>W2 - $16/hr</p><p>1099 &nbsp;- $19/hr</p>";s:15:"submissionnotes";s:27:"<p>Max Bill rate $27/HR</p>";s:19:"suggestsearchstring";s:0:"";}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:10:"Controller";}s:3:"tag";a:1:{i:0;s:17:"Food and Beverage";}}}s:11:"frontmatter";s:1121:"title: 'Process Technician'
+date: '2023-10-26T13:52:05.156579Z'
+modified: '2023-10-26T14:10:28.480894Z'
+jobid: 1420344
+currency: null
+address: '4666 E Faries Pkwy Decatur IL USA 62526-5630'
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/L665678W'
+hash: L665678W
+organization: 271590
+salary_min: ''
+salary_max: ''
+avg_sal: ''
+is_published: true
+is_remote: null
+created_at: '2023-10-26T13:52:05.156579Z'
+updated_at: '2023-10-26T14:10:28.480894Z'
+owner: 78004
+contract_details: full_time
+headcount: 1
+compensation: Negotiable
+hired_at: 0
+submitted_at: 1
+interview_at: 0
+custom_fields:
+    jobid: ADMJP00012122
+    archetype: Controller
+    managernotes: '<p>Associates Degree Preferred 2 - Years&nbsp;</p><p>Software required&nbsp;</p><p>- IBM systems</p><p>- Maximo, JDE</p>'
+    hiringmanager: 'Christine Bryan'
+    engagementtype:
+        - Contract
+    payrateguidance: '<p>W2 - $16/hr</p><p>1099 &nbsp;- $19/hr</p>'
+    submissionnotes: '<p>Max Bill rate $27/HR</p>'
+    suggestsearchstring: ''
+taxonomy:
+    category:
+        - jobs
+        - Controller
+    tag:
+        - 'Food and Beverage'";s:8:"markdown";s:1867:"<p>Description:<br>Process Technician with the Imaging Team. This is a temporary position. Hours are 8:00-4:30 Monday through Friday. The successful candidate will be engaged in a wide variety of activities focused on finance and controlling processes. The position will utilize many of ADM's systems, including IBM and Microsoft Office. <br><br>Job Requirements: <br>Technical and Performance Skills Desired <br> Proficient in Microsoft Office Suite (Excel, Word, MS Outlook, etc.) <br> Experience with IBM systems is preferred <br> Experience with other ADM systems is a plus <br> Ability to function independently in a deadline-oriented environment <br> Problem solving and analytical skills <br> Flexible, willing to do what it takes to get the task completed within given time frame <br> Dependable and desire to learn with a positive attitude <br> Ability to effectively communicate, facilitate, and cross-train <br> Excellent customer service skills <br> Strong attention to detail <br><br>Plus:&nbsp;</p><p>Experience with Scanning in Oracle Scanning Solution is a plus&nbsp;</p><p><br></p><p>Responsibilities: <br> Scanning and Indexing ADM Documents. <br> Provide outstanding customer service for ADMs Internal and External Customers by efficiently executing transactional processes. <br> Effectively plan to define outcomes, identify changes, and implement solutions. <br> Ensure compliance with all ADM policies and procedures. <br> Recommend, develop, and implement process and system improvements to continuously improve efficiency and strengthen controls. <br> Interact with multiple levels of Accounting, IT, Internal Audit, and Commercial and <br>Operational Management. <br> Effectively partner with other internal departments to accomplish tasks <br> Work efficiently and expediently to accomplish goals <br> Work to identify and correct errors</p>";}s:7:"storage";a:6:{s:3:"key";s:33:"jobs/process-technician-l665678-w";s:11:"storage_key";s:36:"04.jobs/process-technician-l665678-w";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165877;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165877;}}s:8:"checksum";s:32:"8074b6ec723fccb03d15f4d8067eca15";}}

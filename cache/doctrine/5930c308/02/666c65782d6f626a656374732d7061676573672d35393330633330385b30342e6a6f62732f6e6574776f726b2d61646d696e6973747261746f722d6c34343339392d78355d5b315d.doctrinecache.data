@@ -1,0 +1,38 @@
+1706166565
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:36:"jobs/network-administrator-l44399-x5";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:27:{s:5:"title";s:21:"Network Administrator";s:4:"date";s:27:"2023-12-14T21:54:43.872478Z";s:8:"modified";s:27:"2023-12-15T19:24:01.857790Z";s:5:"jobid";i:1487242;s:8:"currency";N;s:7:"address";s:0:"";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/L44399X5";s:4:"hash";s:8:"L44399X5";s:12:"organization";i:2149007;s:10:"salary_min";s:9:"$50.00/hr";s:10:"salary_max";s:9:"$60.00/yr";s:7:"avg_sal";s:5:"55.00";s:12:"is_published";b:0;s:9:"is_remote";N;s:10:"created_at";s:27:"2023-12-14T21:54:43.872478Z";s:10:"updated_at";s:27:"2023-12-15T19:24:01.857790Z";s:5:"owner";i:257387;s:16:"contract_details";s:9:"full_time";s:9:"headcount";i:1;s:12:"compensation";s:9:"$60.00/yr";s:8:"hired_at";i:0;s:12:"submitted_at";i:0;s:12:"interview_at";i:0;s:13:"custom_fields";a:4:{s:9:"archetype";s:16:"Systems Engineer";s:13:"hiringmanager";s:11:"Kyle Hoover";s:14:"engagementtype";a:1:{i:0;s:16:"Contract-to-Hire";}s:15:"submissionnotes";s:21:"<p>110/hr maximum</p>";}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:16:"Systems Engineer";}s:3:"tag";a:1:{i:0;s:18:"Telecommunications";}}s:9:"published";b:0;}s:11:"frontmatter";s:869:"title: 'Network Administrator'
+date: '2023-12-14T21:54:43.872478Z'
+modified: '2023-12-15T19:24:01.857790Z'
+jobid: 1487242
+currency: null
+address: ''
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/L44399X5'
+hash: L44399X5
+organization: 2149007
+salary_min: $50.00/hr
+salary_max: $60.00/yr
+avg_sal: '55.00'
+is_published: false
+is_remote: null
+created_at: '2023-12-14T21:54:43.872478Z'
+updated_at: '2023-12-15T19:24:01.857790Z'
+owner: 257387
+contract_details: full_time
+headcount: 1
+compensation: $60.00/yr
+hired_at: 0
+submitted_at: 0
+interview_at: 0
+custom_fields:
+    archetype: 'Systems Engineer'
+    hiringmanager: 'Kyle Hoover'
+    engagementtype:
+        - Contract-to-Hire
+    submissionnotes: '<p>110/hr maximum</p>'
+taxonomy:
+    category:
+        - jobs
+        - 'Systems Engineer'
+    tag:
+        - Telecommunications
+published: false";s:8:"markdown";s:0:"";}s:7:"storage";a:6:{s:3:"key";s:36:"jobs/network-administrator-l44399-x5";s:11:"storage_key";s:39:"04.jobs/network-administrator-l44399-x5";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165872;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165872;}}s:8:"checksum";s:32:"b133204e282855eded3f74e765f4f0a4";}}

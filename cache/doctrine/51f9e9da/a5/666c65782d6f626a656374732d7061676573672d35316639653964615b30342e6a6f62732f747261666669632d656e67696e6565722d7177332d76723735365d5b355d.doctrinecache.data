@@ -1,0 +1,44 @@
+1706682359
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:31:"jobs/traffic-engineer-qw3-vr756";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:16:"Traffic Engineer";s:4:"date";s:27:"2022-09-13T14:52:33.354655Z";s:8:"modified";s:27:"2023-07-19T12:34:01.156082Z";s:5:"jobid";i:450902;s:8:"currency";s:3:"USD";s:7:"address";s:0:"";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/QW3VR756";s:4:"hash";s:8:"QW3VR756";s:12:"organization";i:466404;s:10:"salary_min";s:13:"$80,000.00/yr";s:10:"salary_max";s:14:"$100,000.00/yr";s:7:"avg_sal";s:9:"90,000.00";s:12:"is_published";b:0;s:9:"is_remote";N;s:10:"created_at";s:27:"2022-09-13T14:52:33.354655Z";s:10:"updated_at";s:27:"2023-07-19T12:34:01.156082Z";s:5:"owner";i:24730;s:16:"contract_details";s:9:"full_time";s:9:"headcount";i:1;s:12:"compensation";s:14:"$100,000.00/yr";s:8:"hired_at";i:0;s:12:"submitted_at";i:3;s:12:"interview_at";i:2;s:13:"custom_fields";a:5:{s:9:"archetype";s:19:"Electrical Engineer";s:14:"engagementtype";a:1:{i:0;s:11:"Direct Hire";}s:15:"payrateguidance";s:23:"<p>Salary:  80-100k</p>";s:17:"grossprofitamount";i:22500;s:20:"clientsubmissiontype";a:1:{i:0;s:5:"Email";}}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:19:"Electrical Engineer";}s:3:"tag";a:1:{i:0;s:11:"Engineering";}}}s:11:"frontmatter";s:903:"title: 'Traffic Engineer'
+date: '2022-09-13T14:52:33.354655Z'
+modified: '2023-07-19T12:34:01.156082Z'
+jobid: 450902
+currency: USD
+address: ''
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/QW3VR756'
+hash: QW3VR756
+organization: 466404
+salary_min: '$80,000.00/yr'
+salary_max: '$100,000.00/yr'
+avg_sal: '90,000.00'
+is_published: false
+is_remote: null
+created_at: '2022-09-13T14:52:33.354655Z'
+updated_at: '2023-07-19T12:34:01.156082Z'
+owner: 24730
+contract_details: full_time
+headcount: 1
+compensation: '$100,000.00/yr'
+hired_at: 0
+submitted_at: 3
+interview_at: 2
+custom_fields:
+    archetype: 'Electrical Engineer'
+    engagementtype:
+        - 'Direct Hire'
+    payrateguidance: '<p>Salary:  80-100k</p>'
+    grossprofitamount: 22500
+    clientsubmissiontype:
+        - Email
+taxonomy:
+    category:
+        - jobs
+        - 'Electrical Engineer'
+    tag:
+        - Engineering";s:8:"markdown";s:2108:"<p>Gentis Solutions is seeking a Traffic Engineer&nbsp;for a direct hire full-time position with one of our clients. The ideal candidate will be able to ﻿apply their knowledge in leading traffic-related endeavors as a part of other projects or standalone projects and will pursue work for a new service sector by creating and submitting proposals for traffic-related projects. If you are qualified, make sure you apply.<br></p>
+<p><strong>Requirements</strong></p>
+<ul><li>Bachelor of Science degree in Civil Engineering<br></li><li>Professional Engineer (P.E.) required, preferably in Ohio and/or Kentucky</li><li>Professional Traffic Operations Engineer (P.T.O.E.) certification encouraged</li><li>At least 3 years of experience with a professional license, in a similar role with comparable goals and responsibilities</li><li>Knowledge of traffic services for the private and public sectors is a must, which includes specifics of traffic modeling (i.e. HCS, Synchro, TransModeler, etc.), signal timing studies, and other similar services</li><li>This position requires accurate problem solving and design work from an experienced professional civil engineer</li><li>Ability to juggle a variety of civil engineering tasks while providing superior quality client support to private companies and public agencies</li><li>Excellent communication and presentation skills are a must</li><li>Involvement in the community and within your profession is also encouraged</li><li>AutoCAD, MicroStation, or Carlson experience required.</li></ul>
+<p><strong>Typical Duties</strong><br></p>
+<ul></ul>
+<ul><li>Traffic modeling</li><li>Transportation planning</li><li>Signal design</li><li>Signal communication/interconnect design</li><li>Traffic forecasting</li><li>Writing technical reports (Ex. Traffic Impact Studies) and letters</li><li>Reviewing construction sites and file inspection reports</li><li>Creating proposals for traffic-specific work</li><li>Giving oral presentations to local public agencies, clients, and others</li><li>Practical problem solving</li><li>Client and public agency interaction</li></ul>";}s:7:"storage";a:6:{s:3:"key";s:31:"jobs/traffic-engineer-qw3-vr756";s:11:"storage_key";s:34:"04.jobs/traffic-engineer-qw3-vr756";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165904;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165904;}}s:8:"checksum";s:32:"565d07f6dd4a88ad864eaf95c6043fa0";}}

@@ -1,0 +1,129 @@
+{% set body_classes = body_class(['header-fixed', 'header-animated', 'header-dark', 'header-transparent', 'sticky-footer']) %}
+{% set grid_size = theme_var('grid-size') %}
+{% set compress = theme_var('production-mode') ? '.min.css' : '.css' %}
+{% use 'blocks/base.html.twig' %}
+
+<!DOCTYPE html>
+<html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}">
+<head>
+{% block head deferred %}
+    <meta charset="utf-8" />
+    <title>{% if page.title %}{{ page.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include 'partials/metadata.html.twig' %}
+
+    <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
+    <link rel="canonical" href="{{ page.url(true, true) }}" />
+	
+	
+{% endblock head %}
+
+    
+{% block stylesheets %} 
+    {% do assets.addCss('theme://assets/css/bootstrap.min.css') %}
+	{% do assets.addCss('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css', 99) %}
+	{% do assets.addCss('theme://assets/css/jobs_listing.css') %}
+	{% do assets.addCss('theme://assets/css/jobs_details.css') %}
+{% endblock %}
+
+{% block javascripts %}
+
+    {% do assets.addJs('theme://assets/js/jquery.min.js', {group:'bottom'}) %}
+    {% do assets.addJs('theme://assets/js/bootstrap.bundle.min.js', {group:'bottom'}) %}
+    {% do assets.addJs('theme://assets/js/script.js', {group:'bottom'}) %}
+	
+
+{% endblock %}
+
+{% block assets deferred %}
+    {{ assets.css()|raw }}
+    {{ assets.js()|raw }}
+	
+{% endblock %}
+</head>
+<body id="top" class="{% block body_classes %}{{ body_classes }}{% endblock %}">
+
+	<div class="wrapper jobs_listing  job_details">
+	
+   {% block header %}
+
+ <!-- header navbar -->
+        <header>
+           <div class="btmnv show">
+                <div class="container">
+                    <div class="row">
+                        <nav class="navbar navbar-expand-xl">
+                            <div class="container-fluid px-3 px-lg-0">
+                              
+							  {% include 'partials/logo.html.twig' %}
+							  
+                              <button class="navbar-toggler d-block d-xl-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon">
+                                    <img class="toglbtn" src="{{ url('theme://assets/images/menu.png')}}" alt="toggle button">
+                                </span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+							  
+							     {% block header_navigation %}
+									{% include 'partials/navigation.html.twig' %}
+								{% endblock %}
+								
+								{% if config.plugins.login.enabled and grav.user.username %}
+									<span class="login-status-wrapper"><i class="fa fa-user"></i> {% include 'partials/login-status.html.twig' %}</span>
+								{% endif %}
+							     
+                                
+                              </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+{% endblock %}
+
+    {% block hero %}{% endblock %}
+
+        
+        {% block body %}
+            <section id="body-wrapper" class="section">
+                <section class="container {{ grid_size }}">
+                    {% block messages %}
+                        {% include 'partials/messages.html.twig' ignore missing %}
+                    {% endblock %}
+                    {{ block('content_surround') }}
+                </section>
+            </section>
+        {% endblock %}
+       
+	   
+	    {% block footer %}
+        {% include 'partials/footer.html.twig' %}
+		{% endblock %}
+
+    </div>
+
+    
+
+    {% block mobile %}
+    <div class="mobile-container">
+        <div class="overlay" id="overlay">
+            <div class="mobile-logo">
+                {% include 'partials/logo.html.twig' with {mobile: true} %}
+            </div>
+            <nav class="overlay-menu">
+                {% include 'partials/navigation.html.twig' with {tree: true} %}
+            </nav>
+        </div>
+    </div>
+    {% endblock %}
+
+{% block bottom %}
+    {{ assets.js('bottom')|raw }}
+	
+	{% endblock %}
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+1706166565
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:42:"jobs/professional-lab-technician-l57-rr465";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:27:"Professional Lab Technician";s:4:"date";s:27:"2024-01-22T18:12:02.961384Z";s:8:"modified";s:27:"2024-01-22T20:41:49.641063Z";s:5:"jobid";i:1561667;s:8:"currency";s:3:"USD";s:7:"address";s:43:"3000 E 8TH ST Columbus, NEBRASKA 68601-9073";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/L57RR465";s:4:"hash";s:8:"L57RR465";s:12:"organization";i:271590;s:10:"salary_min";s:9:"$20.00/hr";s:10:"salary_max";s:9:"$22.93/yr";s:7:"avg_sal";s:5:"21.47";s:12:"is_published";b:1;s:9:"is_remote";N;s:10:"created_at";s:27:"2024-01-22T18:12:02.961384Z";s:10:"updated_at";s:27:"2024-01-22T20:41:49.641063Z";s:5:"owner";i:22120;s:16:"contract_details";s:9:"temporary";s:9:"headcount";i:1;s:12:"compensation";s:9:"$22.93/yr";s:8:"hired_at";i:0;s:12:"submitted_at";i:1;s:12:"interview_at";i:0;s:13:"custom_fields";a:5:{s:9:"archetype";s:13:"General Labor";s:14:"engagementtype";a:1:{i:0;s:16:"Contract-to-Hire";}s:15:"payrateguidance";s:77:"<p>Pay rate: $20- $22.93/hr With a $2.15/hr shift differential. 1099 only</p>";s:15:"submissionnotes";s:16:"<p>BR: 34.17</p>";s:20:"clientsubmissiontype";a:1:{i:0;s:5:"Email";}}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:13:"General Labor";}s:3:"tag";a:1:{i:0;s:10:"Laboratory";}}}s:11:"frontmatter";s:988:"title: 'Professional Lab Technician'
+date: '2024-01-22T18:12:02.961384Z'
+modified: '2024-01-22T20:41:49.641063Z'
+jobid: 1561667
+currency: USD
+address: '3000 E 8TH ST Columbus, NEBRASKA 68601-9073'
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/L57RR465'
+hash: L57RR465
+organization: 271590
+salary_min: $20.00/hr
+salary_max: $22.93/yr
+avg_sal: '21.47'
+is_published: true
+is_remote: null
+created_at: '2024-01-22T18:12:02.961384Z'
+updated_at: '2024-01-22T20:41:49.641063Z'
+owner: 22120
+contract_details: temporary
+headcount: 1
+compensation: $22.93/yr
+hired_at: 0
+submitted_at: 1
+interview_at: 0
+custom_fields:
+    archetype: 'General Labor'
+    engagementtype:
+        - Contract-to-Hire
+    payrateguidance: '<p>Pay rate: $20- $22.93/hr With a $2.15/hr shift differential. 1099 only</p>'
+    submissionnotes: '<p>BR: 34.17</p>'
+    clientsubmissiontype:
+        - Email
+taxonomy:
+    category:
+        - jobs
+        - 'General Labor'
+    tag:
+        - Laboratory";s:8:"markdown";s:3111:"<p>Gentis Solutions is seeking a Professional Lab Technician to join our team. This contract-to-hire position is with one of our clients interested in full-time consultants. The ideal candidates will have the required skills listed below and will be eligible and open to being hired by our client at the end of the project's duration. If you are qualified, make sure you apply below.<br></p>
+<p>﻿<strong>Requirements</strong></p>
+<ul><li>2 or more years science degree﻿</li><li>Ability to work on multiple tasks</li><li>Ability to team build</li><li>Good organizational skills</li><li>Willingness to assume and learn new responsibilities</li><li>Excellent communication skills</li><li>Proven housekeeping and sanitation skills</li><li>Demonstrated troubleshooting skills</li><li>Accurate record-keeping skills</li><li>Attendance and punctuality</li><li>Ability to lift up to 40 lbs.</li><li>Ability to be on your feet for extended periods of time</li></ul>
+<p><strong>Desirable Skills</strong></p>
+<ul><li>Good attendance history</li><li>Excellent safety record and awareness</li><li>Demonstrated computer skills for lab instrument operation programs</li><li>Familiarity with current commercial software applications (Excel, Word)</li><li>Experience with lab documentation</li><li>Experience with operating standard lab equipment (pH meter, balances, and spectrophotometer)</li><li>Demonstrates sufficient math skills to perform calculations associated with lab testing</li><li>Previous plant experience</li></ul>
+<p><strong>﻿Typical Duties</strong></p>
+<ul><li>Prepare process and finished product samples</li><li>Perform analytical testing using instrumental and wet chemistry procedures</li><li>Record results using computerized data systems</li><li>Perform daily process monitoring tests throughout the plant as assigned</li><li>Maintain samples of tested products for confirmation if necessary</li><li>Document results of all testing procedures and notify operations of required adjustments</li><li>Enter and report data using a Laboratory Information Management System (LIMS)</li><li>Understand most production processes required in the production of the product</li><li>Make recommendations to operators to achieve product quality</li><li>Perform light maintenance and calibration on all ADM laboratory equipment</li><li>Maintain ongoing records of testing results and input such data into the computer daily</li><li>Maintain adequate supplies for testing procedures and notify the supervisor of the need to reorder</li><li>Continually compare equipment readouts with samples of standards to ensure accurate operation</li><li>Maintain a neat and clean working area at all times, washing equipment as required, and placing equipment in the proper storage areas</li><li>Maintain an effective working relationship with fellow employees</li><li>Perform duties in a safe manner, utilizing all approved safety equipment, and successfully complete all safety certification requirements</li><li>Maintain awareness and adhere to all FDA, GMP, BATF, EPA, OSHA, and employer standards and guidelines</li></ul>";}s:7:"storage";a:6:{s:3:"key";s:42:"jobs/professional-lab-technician-l57-rr465";s:11:"storage_key";s:45:"04.jobs/professional-lab-technician-l57-rr465";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165878;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165878;}}s:8:"checksum";s:32:"cd8b811a1276572923b8a5e073258f04";}}

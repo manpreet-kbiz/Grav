@@ -1,0 +1,61 @@
+1706166565
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:43:"jobs/electrical-controls-engineer-l38-yvyww";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:28:"Electrical Controls Engineer";s:4:"date";s:27:"2023-11-02T18:54:25.553146Z";s:8:"modified";s:27:"2023-12-19T14:45:33.771784Z";s:5:"jobid";i:1426765;s:8:"currency";N;s:7:"address";s:0:"";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/L38YVYWW";s:4:"hash";s:8:"L38YVYWW";s:12:"organization";i:659772;s:10:"salary_min";s:13:"$90,000.00/yr";s:10:"salary_max";s:14:"$120,000.00/yr";s:7:"avg_sal";s:10:"105,000.00";s:12:"is_published";b:1;s:9:"is_remote";N;s:10:"created_at";s:27:"2023-11-02T18:54:25.553146Z";s:10:"updated_at";s:27:"2023-12-19T14:45:33.771784Z";s:5:"owner";i:24730;s:16:"contract_details";s:9:"full_time";s:9:"headcount";i:1;s:12:"compensation";s:14:"$120,000.00/yr";s:8:"hired_at";i:0;s:12:"submitted_at";i:20;s:12:"interview_at";i:5;s:13:"custom_fields";a:8:{s:9:"archetype";s:19:"Engineering Support";s:12:"managernotes";s:953:"<p>cities within 45 min of harrison:</p><ol><li>Cincinnati, Ohio</li><li>Lawrenceburg, Indiana</li><li>Cleves, Ohio</li><li>Greendale, Indiana</li><li>Hebron, Kentucky</li><li>Bright, Indiana</li><li>North Bend, Ohio</li><li>Burlington, Kentucky</li><li>Addyston, Ohio</li><li>Rising Sun, Indiana</li></ol><p><br></p><p>We are looking to hire a Controls Engineer to run and support multi-million-dollar custom automation projects.</p>
+<p>This is a leading expert in the design and manufacturing of custom automated test and measurement machinery. This is a mid-level position, capable of designing and troubleshooting complex electrical functions while working independently. The ideal candidate should be flexible and able to quickly learn and adapt to new technologies as required by custom specifications. The candidate must also have excellent verbal and communication skills with the ability to work on cross-functional/interdepartmental teams.</p>";s:12:"prescreenurl";s:86:"<p><a href="https://app.willotalent.com/invite/WDkNxS/">Willo - Prescreen link</a></p>";s:14:"engagementtype";a:1:{i:0;s:11:"Direct Hire";}s:15:"payrateguidance";s:77:"<p>salary range - mid-level (5-10 years) $90-110k and 10+ years 110k-120k</p>";s:17:"grossprofitamount";i:26250;s:20:"clientsubmissiontype";a:1:{i:0;s:5:"Email";}s:23:"skillchallengequestions";s:1109:"<p>Can you discuss your experience in designing and programming automated machinery, specifically highlighting any projects that involved complex electrical functions? </p>
+<p>How familiar are you with Allen Bradley PLC and HMI programming? Can you provide examples of projects where you applied this knowledge? </p>
+<p>  </p>
+<p>How do you ensure machine safety and incorporate safe design practices in your work, especially in a manufacturing and production environment? </p>
+<p>  </p>
+<p>  </p>
+<p>Discuss your experience with other programming languages like C++, LabVIEW, Python, Wonderware, etc… How have you applied these languages in your work on automation projects? </p>
+<p> </p>
+<p>Can you talk about your knowledge and experience in developing motion systems (VFDs, servos, robotic systems) and working with vision systems (Cognex, Keyence)? </p>
+<p>  </p>
+<p>Can you provide an example of a time when you contributed innovative ideas to improve a project or the overall functioning of your team? </p>
+<p> </p>
+<p> Please share your experience with CAD and what systems you have worked with.</p>";}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:19:"Engineering Support";}s:3:"tag";a:1:{i:0;s:11:"Engineering";}}}s:11:"frontmatter";s:3207:"title: 'Electrical Controls Engineer'
+date: '2023-11-02T18:54:25.553146Z'
+modified: '2023-12-19T14:45:33.771784Z'
+jobid: 1426765
+currency: null
+address: ''
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/L38YVYWW'
+hash: L38YVYWW
+organization: 659772
+salary_min: '$90,000.00/yr'
+salary_max: '$120,000.00/yr'
+avg_sal: '105,000.00'
+is_published: true
+is_remote: null
+created_at: '2023-11-02T18:54:25.553146Z'
+updated_at: '2023-12-19T14:45:33.771784Z'
+owner: 24730
+contract_details: full_time
+headcount: 1
+compensation: '$120,000.00/yr'
+hired_at: 0
+submitted_at: 20
+interview_at: 5
+custom_fields:
+    archetype: 'Engineering Support'
+    managernotes: "<p>cities within 45 min of harrison:</p><ol><li>Cincinnati, Ohio</li><li>Lawrenceburg, Indiana</li><li>Cleves, Ohio</li><li>Greendale, Indiana</li><li>Hebron, Kentucky</li><li>Bright, Indiana</li><li>North Bend, Ohio</li><li>Burlington, Kentucky</li><li>Addyston, Ohio</li><li>Rising Sun, Indiana</li></ol><p><br></p><p>We are looking to hire a Controls Engineer to run and support multi-million-dollar custom automation projects.</p>\n<p>This is a leading expert in the design and manufacturing of custom automated test and measurement machinery. This is a mid-level position, capable of designing and troubleshooting complex electrical functions while working independently. The ideal candidate should be flexible and able to quickly learn and adapt to new technologies as required by custom specifications. The candidate must also have excellent verbal and communication skills with the ability to work on cross-functional/interdepartmental teams.</p>"
+    prescreenurl: '<p><a href="https://app.willotalent.com/invite/WDkNxS/">Willo - Prescreen link</a></p>'
+    engagementtype:
+        - 'Direct Hire'
+    payrateguidance: '<p>salary range - mid-level (5-10 years) $90-110k and 10+ years 110k-120k</p>'
+    grossprofitamount: 26250
+    clientsubmissiontype:
+        - Email
+    skillchallengequestions: "<p>Can you discuss your experience in designing and programming automated machinery, specifically highlighting any projects that involved complex electrical functions? </p>\n<p>How familiar are you with Allen Bradley PLC and HMI programming? Can you provide examples of projects where you applied this knowledge? </p>\n<p>  </p>\n<p>How do you ensure machine safety and incorporate safe design practices in your work, especially in a manufacturing and production environment? </p>\n<p>  </p>\n<p>  </p>\n<p>Discuss your experience with other programming languages like C++, LabVIEW, Python, Wonderware, etc… How have you applied these languages in your work on automation projects? </p>\n<p> </p>\n<p>Can you talk about your knowledge and experience in developing motion systems (VFDs, servos, robotic systems) and working with vision systems (Cognex, Keyence)? </p>\n<p>  </p>\n<p>Can you provide an example of a time when you contributed innovative ideas to improve a project or the overall functioning of your team? </p>\n<p> </p>\n<p> Please share your experience with CAD and what systems you have worked with.</p>"
+taxonomy:
+    category:
+        - jobs
+        - 'Engineering Support'
+    tag:
+        - Engineering";s:8:"markdown";s:2969:"<p>If you're seeking a challenging opportunity as an ﻿Electrical Controls Engineer, Gentis Solutions has the perfect position for you. Join our client, a leading expert in the design and manufacturing of custom automated test and measurement machinery, where you'll have the chance to&nbsp;run and support multi-million-dollar custom automation projects. ﻿This is a mid-level position, capable of designing and troubleshooting complex electrical functions while working independently. The ideal candidate should be flexible and able to quickly learn and adapt to new technologies as required by custom specifications. The candidate must also have excellent verbal and communication skills with the ability to work on cross-functional/interdepartmental teams.&nbsp;Apply today and take the first step toward your exciting new role!<br></p>
+<p><strong>Requirements</strong></p>
+<ul><li>Bachelor of Science degree in electrical engineering with&nbsp;5+ years of experience&nbsp;in a <span style="font-size: 1em;">related field</span></li><li>Alternatively, a Master of Science in electrical engineering degree with&nbsp;3+ years of experience in a related field</li><li>Experience designing and programming automated machinery</li><li>Excellent written and verbal communication skills</li><li>Experience working in manufacturing and production environments</li><li>Experience with Allen Bradley PLC and HMI programming</li><li>Able to effectively manage time to ensure projects meet scheduled deadlines</li><li>Strong understanding of machine safety and safe design practices</li></ul>
+<p><strong>Desirable Skills</strong></p>
+<ul><li>Experience working in AutoCAD Electrical</li><li>Experience programming a variety of PLCs such as Siemens, Automation Direct, Omron</li><li>Experience with PC programming languages such as C++ and LabVIEW</li><li>Experience with production environments in the medical and automotive sectors</li><li>Knowledge of developing motion systems such as VFDs, servos, and robotic systems</li><li>Experience working with vision systems such as Cognex and Keyence</li><li>Familiar with production SCADA systems such as Ignition or Wonderware</li><li>Familiar with the design of hydraulic systems</li></ul>
+<p><strong>Typical Duties</strong></p>
+<ul><li>Responsible for design, commissioning, and programming of machinery through the full project life cycle</li><li>Design electrical and pneumatic systems for automation production environments</li><li>Program from-scratch robust PLC and HMI applications to meet customer specifications</li><li>Collaborate with customers to evaluate and understand specifications as they pertain to custom test equipment</li><li>Hands-on troubleshooting of mechanical, electrical, and software issues for equipment debug</li><li>Analyze collected data to determine the performance and effectiveness of test equipment</li><li>Help innovate new ideas to improve CTS as an OEM and a great place to work</li></ul>";}s:7:"storage";a:6:{s:3:"key";s:43:"jobs/electrical-controls-engineer-l38-yvyww";s:11:"storage_key";s:46:"04.jobs/electrical-controls-engineer-l38-yvyww";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165856;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165856;}}s:8:"checksum";s:32:"6ee9b3502f07366638877e3e70dfcb7a";}}

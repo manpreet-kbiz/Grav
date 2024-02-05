@@ -1,0 +1,45 @@
+1706682359
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:26:"jobs/scale-clerk-qx7-yyvw3";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:11:"Scale Clerk";s:4:"date";s:27:"2024-01-22T18:01:18.831752Z";s:8:"modified";s:27:"2024-01-22T18:13:44.820377Z";s:5:"jobid";i:1561651;s:8:"currency";s:3:"USD";s:7:"address";s:72:"BG8 - ADM GRAIN COMPANY (3585), 1337 ELEVATOR ST Snover, MI , 48472-0000";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/QX7YYVW3";s:4:"hash";s:8:"QX7YYVW3";s:12:"organization";i:271590;s:10:"salary_min";s:9:"$17.00/hr";s:10:"salary_max";s:9:"$17.00/yr";s:7:"avg_sal";s:5:"17.00";s:12:"is_published";b:1;s:9:"is_remote";N;s:10:"created_at";s:27:"2024-01-22T18:01:18.831752Z";s:10:"updated_at";s:27:"2024-01-22T18:13:44.820377Z";s:5:"owner";i:22120;s:16:"contract_details";s:9:"temporary";s:9:"headcount";i:1;s:12:"compensation";s:9:"$17.00/yr";s:8:"hired_at";i:0;s:12:"submitted_at";i:0;s:12:"interview_at";i:0;s:13:"custom_fields";a:6:{s:9:"archetype";s:14:"Administrative";s:12:"managernotes";s:94:"<p>Shift details Monday to Friday 8AM-4:30PM.</p>
+<p>Temp job to be hired if it works out.</p>";s:14:"engagementtype";a:1:{i:0;s:16:"Contract-to-Hire";}s:15:"payrateguidance";s:27:"<p>Pay rate 17hr - 1099</p>";s:15:"submissionnotes";s:16:"<p>BR: 26.62</p>";s:20:"clientsubmissiontype";a:1:{i:0;s:5:"Email";}}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:14:"Administrative";}s:3:"tag";a:1:{i:0;s:17:"Food and Beverage";}}}s:11:"frontmatter";s:1074:"title: 'Scale Clerk'
+date: '2024-01-22T18:01:18.831752Z'
+modified: '2024-01-22T18:13:44.820377Z'
+jobid: 1561651
+currency: USD
+address: 'BG8 - ADM GRAIN COMPANY (3585), 1337 ELEVATOR ST Snover, MI , 48472-0000'
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/QX7YYVW3'
+hash: QX7YYVW3
+organization: 271590
+salary_min: $17.00/hr
+salary_max: $17.00/yr
+avg_sal: '17.00'
+is_published: true
+is_remote: null
+created_at: '2024-01-22T18:01:18.831752Z'
+updated_at: '2024-01-22T18:13:44.820377Z'
+owner: 22120
+contract_details: temporary
+headcount: 1
+compensation: $17.00/yr
+hired_at: 0
+submitted_at: 0
+interview_at: 0
+custom_fields:
+    archetype: Administrative
+    managernotes: "<p>Shift details Monday to Friday 8AM-4:30PM.</p>\n<p>Temp job to be hired if it works out.</p>"
+    engagementtype:
+        - Contract-to-Hire
+    payrateguidance: '<p>Pay rate 17hr - 1099</p>'
+    submissionnotes: '<p>BR: 26.62</p>'
+    clientsubmissiontype:
+        - Email
+taxonomy:
+    category:
+        - jobs
+        - Administrative
+    tag:
+        - 'Food and Beverage'";s:8:"markdown";s:1818:"<p><span style="font-family: inherit; font-size: 0.875rem;">Gentis Solutions is seeking a Scale Clerk to join our team. This contract-to-hire position is with one of our clients interested in full-time consultants. The ideal candidates will have the required skills listed below and will be eligible and open to being hired by our client at the end of the project's duration. If you are qualified, make sure you apply below.</span><br></p>
+<p>﻿<strong>Requirements</strong></p>
+<ul><li>High school education or equivalent</li><li>Exhibit regular and prompt attendance</li><li>Able to meet physical requirements of the position including, but not limited to: prolonged periods of standing and sitting, prolonged periods of using a telephone, bending, kneeling, lift storage boxes</li><li>Willing to work overtime and weekends</li><li>Demonstrate initiative to work independently while flexible enough to work in a team setting</li><li>Exhibit a professional image at all times; maintain a positive and respectful attitude</li><li>Computer skills are a must; previous experience with data entry using Microsoft Word &amp; Excel is preferred</li><li>Previous experience with office equipment such as copier, fax machine, etc.</li></ul>
+<p><strong>﻿Typical Duties</strong><br></p>
+<ul><li>Weigh trucks accurately</li><li>Perform data entry tasks efficiently</li><li>Answer phones and provide excellent customer service</li><li>File and retain documents systematically</li><li>Maintain a clean and neat workspace</li><li>Operate a PLC program effectively</li><li>Grading grain according to established procedures</li><li>Work collaboratively in a team setting</li><li>Demonstrate flexibility to work overtime and weekends as required</li><li>Exhibit professionalism and a positive attitude in all interactions</li></ul>";}s:7:"storage";a:6:{s:3:"key";s:26:"jobs/scale-clerk-qx7-yyvw3";s:11:"storage_key";s:29:"04.jobs/scale-clerk-qx7-yyvw3";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165886;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165886;}}s:8:"checksum";s:32:"9495b39e98e126f3efb5a1fa50a6dda3";}}

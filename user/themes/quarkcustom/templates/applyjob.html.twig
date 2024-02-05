@@ -1,0 +1,114 @@
+{% extends 'partials/base.html.twig' %}
+
+{% set full_url = apisocialbtn_domain ~ page.url %} 
+{% block hero %}
+
+        <!-- bannerHero  -->
+        <section class="bannerHero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="bnrcont d-flex flex-column justify-content-center align-items-center">
+                            <h1>Quality Control Inspector - 2nd Shift</h1>
+                            <p>Fill the Form Below to Apply for the Job</p>
+                            <div class="aply_refer_btns">
+                                <a href="#fill_form"><button class="btn btn-primary"><i class="fa-solid fa-angles-down me-3"></i>Go to Form<i class="fa-solid fa-angles-down ms-3"></i></button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+{% endblock %}
+
+{% block content %}
+        <!-- Job Apply Form section -->
+        <section class="job_apply_form pt-127">
+            <div class="container">
+                <div class="bg-light" id="fill_form">
+                    <div class="row">
+                      <div class="col-lg-8 col-md-12 p-4 p-md-5 bg-white rounded-3">
+                        <div class="d-flex mb-3 flex-column">
+                          <h2 class="text-capitalize text-center text-lg-start">Fill the Form Below</h2>
+                          
+                        </div>
+                        <form class="row mb-3">
+                          <div class="col-md-6 p-3">
+                            <input required placeholder="first name" type="text" name="" id="" />
+                          </div>
+                          <div class="col-md-6 p-3">
+                            <input required placeholder="last name" type="text" name="" id="" />
+                          </div>
+                          <div class="col-md-6 p-3">
+                            <input required placeholder="E-mail" type="email" name="" id="" />
+                          </div>
+                          <div class="col-md-6 p-3">
+                            <input required placeholder="phone" type="tel" name="" id="" />
+                          </div>
+                          <div class="col-md-6 p-3">
+                            <input required placeholder="expected salary" type="text" name="" id="" />
+                          </div>
+                          <div class="col-md-6 p-3">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Select Currency</option>
+                                <option value="1">Currency One</option>
+                                <option value="2">Currency Two</option>
+                                <option value="3">Currency Three</option>
+                              </select>
+                          </div>
+                          <div class="col-md-12 p-3">
+                            <div class="d-flex flex-wrap">
+                                <div class="d-flex justify-content-start align-items-center w-100 check_agree">
+                                  <input type="checkbox" name="webdev" class="form-check-input m-0 me-3" id="webdev" />
+                                  <label for="webdev"> I agree to the <a href="https://www.careers-page.com/gentis/terms-and-conditions">terms and conditions</a>  & <a href="https://www.careers-page.com/gentis/privacy-policy">privacy policy</a></label>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="text-start mt-4">
+                            <input class="btn px-4 py-3 btn-outline-dark submt_btn" type="submit" value="Apply" />
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col-lg-4 col-md-12 text-white aside px-4 py-5">
+                        <div class="mb-5">
+                          <h1 class="h3">Contact Information</h1>
+                          <p class="opacity-50">
+                            <small>
+                              Fill out the from and we will get back to you whitin 24 hours
+                            </small>
+                          </p>
+                        </div>
+                        <div class="d-flex flex-column px-0">
+                          <ul class="m-0 p-0">
+                            <li class="d-flex justify-content-start align-items-center mb-4">
+                              <span class="opacity-50 d-flex align-items-center me-3 fs-2">
+                                <i class="fa-solid fa-phone text-white"></i>
+                              </span>
+                              <span>(859) 669-2731</span>
+                            </li>
+                            <li class="d-flex justify-content-start align-items-center mb-4">
+                              <span class="opacity-50 d-flex align-items-center me-3 fs-2">
+                                <i class="fa-solid fa-location-dot text-white"></i>
+                              </span>
+                              <span>50 E Rivercenter Blvd, STE 1025 <br />
+                                Covington, KY 41011
+                              </span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+    
+
+	
+
+{% endblock %}
+
+
+{% block mobile %}
+   
+{% endblock %}

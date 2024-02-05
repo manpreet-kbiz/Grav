@@ -1,0 +1,54 @@
+1706868872
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:28:"jobs/structural-pe-qv83-vr38";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:13:"Structural PE";s:4:"date";s:27:"2023-08-11T18:03:33.172914Z";s:8:"modified";s:27:"2023-09-11T18:38:02.281440Z";s:5:"jobid";i:1304237;s:8:"currency";N;s:7:"address";s:0:"";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/QV83VR38";s:4:"hash";s:8:"QV83VR38";s:12:"organization";i:1847090;s:10:"salary_min";s:13:"$75,000.00/yr";s:10:"salary_max";s:14:"$105,000.00/yr";s:7:"avg_sal";s:9:"90,000.00";s:12:"is_published";b:1;s:9:"is_remote";N;s:10:"created_at";s:27:"2023-08-11T18:03:33.172914Z";s:10:"updated_at";s:27:"2023-09-11T18:38:02.281440Z";s:5:"owner";i:24730;s:16:"contract_details";s:9:"full_time";s:9:"headcount";i:1;s:12:"compensation";s:14:"$105,000.00/yr";s:8:"hired_at";i:0;s:12:"submitted_at";i:4;s:12:"interview_at";i:1;s:13:"custom_fields";a:8:{s:9:"archetype";s:14:"Civil Engineer";s:12:"managernotes";s:346:"<p>Professional Engineer within our Structural Engineering office located in St. Cloud, MN. Responsibilities include engineering and design work, project management, design and construction administration, and client interaction. We have a variety of work in residential, commercial, and industrial projects in the private and public sectors.</p>";s:12:"prescreenurl";s:112:"<p>Willo -&nbsp;﻿<a href="https://app.willotalent.com/invite/4G8WQO/">Structural Professional Engineer</a></p>";s:14:"engagementtype";a:1:{i:0;s:11:"Direct Hire";}s:15:"payrateguidance";s:22:"<p>Salary: 75-105k</p>";s:17:"grossprofitamount";i:22500;s:20:"clientsubmissiontype";a:1:{i:0;s:5:"Email";}s:23:"skillchallengequestions";s:1054:"
+
+
+
+
+
+<ol><li>Please be sure you are in a well-lit, quiet environment and that you have dressed appropriately for an interview. If you need some time to change a few things before your video interview begins, please feel free to close this video and restart the process. When you are ready, please confirm your consent to use this video for evaluation and hiring purposes by stating "Yes I confirm you may use this video for hiring and evaluation purposes".</li><li>Please introduce yourself and share where you are from.</li><li>Please share your experience in Residential, commercial and industrial engineering.</li><li>Please share an example of your project management experience. Include examples of how you completed the delivery of the project and maintained schedules.</li><li>Share any experience with post frame engineering and what types of projects you utilized this with.</li><li>Share your experience with AutoCAD, Revit and other software.</li><li>Please share any hobbies or examples of how you spend your time when not working.</li></ol>";}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:14:"Civil Engineer";}s:3:"tag";a:1:{i:0;s:11:"Engineering";}}}s:11:"frontmatter";s:2485:"title: 'Structural PE'
+date: '2023-08-11T18:03:33.172914Z'
+modified: '2023-09-11T18:38:02.281440Z'
+jobid: 1304237
+currency: null
+address: ''
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/QV83VR38'
+hash: QV83VR38
+organization: 1847090
+salary_min: '$75,000.00/yr'
+salary_max: '$105,000.00/yr'
+avg_sal: '90,000.00'
+is_published: true
+is_remote: null
+created_at: '2023-08-11T18:03:33.172914Z'
+updated_at: '2023-09-11T18:38:02.281440Z'
+owner: 24730
+contract_details: full_time
+headcount: 1
+compensation: '$105,000.00/yr'
+hired_at: 0
+submitted_at: 4
+interview_at: 1
+custom_fields:
+    archetype: 'Civil Engineer'
+    managernotes: '<p>Professional Engineer within our Structural Engineering office located in St. Cloud, MN. Responsibilities include engineering and design work, project management, design and construction administration, and client interaction. We have a variety of work in residential, commercial, and industrial projects in the private and public sectors.</p>'
+    prescreenurl: '<p>Willo -&nbsp;﻿<a href="https://app.willotalent.com/invite/4G8WQO/">Structural Professional Engineer</a></p>'
+    engagementtype:
+        - 'Direct Hire'
+    payrateguidance: '<p>Salary: 75-105k</p>'
+    grossprofitamount: 22500
+    clientsubmissiontype:
+        - Email
+    skillchallengequestions: "\n\n\n\n\n\n<ol><li>Please be sure you are in a well-lit, quiet environment and that you have dressed appropriately for an interview. If you need some time to change a few things before your video interview begins, please feel free to close this video and restart the process. When you are ready, please confirm your consent to use this video for evaluation and hiring purposes by stating \"Yes I confirm you may use this video for hiring and evaluation purposes\".</li><li>Please introduce yourself and share where you are from.</li><li>Please share your experience in Residential, commercial and industrial engineering.</li><li>Please share an example of your project management experience. Include examples of how you completed the delivery of the project and maintained schedules.</li><li>Share any experience with post frame engineering and what types of projects you utilized this with.</li><li>Share your experience with AutoCAD, Revit and other software.</li><li>Please share any hobbies or examples of how you spend your time when not working.</li></ol>"
+taxonomy:
+    category:
+        - jobs
+        - 'Civil Engineer'
+    tag:
+        - Engineering";s:8:"markdown";s:3072:"<p>Gentis Solutions is currently looking for a Structural Professional Engineer to join our client's team in a full-time, direct-hire capacity. Our client's expertise lies in providing exceptional structural engineering services tailored to commercial, industrial, and residential applications. The ideal candidate will be able to apply their knowledge of&nbsp;﻿engineering and design work, project management, design and construction administration, and client interaction.&nbsp;﻿If you are qualified, make sure you apply.</p>
+<p><strong>Requirements</strong></p>
+<ul><li>﻿Bachelor's degree in civil engineering with structural emphasis, or similar engineering field</li><li>Must be a registered Professional Engineer in the State of Minnesota or can be within 6 months</li><li>Must also be able to obtain other registrations during employment if needed</li><li>Minimum of ten (10) years of experience in residential, commercial, and industrial engineering<ul><li>Construction, contracting, and building experience is not required, but can be used in place of the engineering experience requirement based on the experience</li></ul></li><li>Minimum of five (5) years of project management experience<ul><li>Demonstrated abilities to deliver projects and maintain schedules in a profitable manner</li><li>Ability to effectively assign duties to technicians/drafters, answer questions, and monitor progress</li></ul></li><li>Must have experience with post-frame engineering, multi-family unit design, custom home, and commercial design, in wood, concrete, and steel</li><li>Experience in working in a fast-paced, short-schedule, work environment</li><li>Experience with building code standards, design software (AutoCAD, Revit, Robot, RISA-3D), Excel spreadsheets, and be able to prepare specifications, cost estimates, and project proposals</li><li>Demonstrated writing and speaking skills, (English is required, other languages a plus)</li><li>Demonstrated abilities to build and maintain client relationships and to understand and address client-specific needs.</li><li>Must have a valid driver's license and be insurable to be considered</li><li>Strong organizational and presentation skills</li><li>Ability to explain difficult concepts, concisely, simply, and with patience</li><li>Ability to become NCEES certified for registration in multiple states</li></ul>
+<p><strong>Desirable</strong></p>
+<ul><li>﻿Master's degree in engineering with an emphasis on structures</li><li>2-5 years of construction, contracting, or construction management experience in residential, commercial, or industrial projects is preferred, but not required</li></ul>
+<p><strong>Typical Duties</strong></p>
+<ul><li>﻿Undertake diverse engineering and design tasks</li><li>Manage projects from inception to completion</li><li>Oversee design and construction administration</li><li>Engage with clients effectively</li><li>Handle a spectrum of projects spanning residential, commercial, and industrial domains</li><li>Contribute to both private and public sector initiatives</li></ul>";}s:7:"storage";a:6:{s:3:"key";s:28:"jobs/structural-pe-qv83-vr38";s:11:"storage_key";s:31:"04.jobs/structural-pe-qv83-vr38";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706790050;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706790050;}}s:8:"checksum";s:32:"b073d484d2714b1f1831f872b1e1fd8c";}}

@@ -1,0 +1,397 @@
+{% extends 'partials/base.html.twig' %}
+
+{% set full_url = apisocialbtn_domain ~ page.url %}
+
+    
+{% block stylesheets %} 
+    {% do assets.addCss('theme://assets/css/bootstrap.min.css') %}
+	{% do assets.addCss('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css', 99) %}
+	{% do assets.addCss('theme://assets/css/jobs_listing.css') %}
+	{% do assets.addCss('theme://assets/css/job_details.css') %}
+	{% do assets.addCss('theme://assets/css/job_apply_form.css') %}
+	
+	
+{% endblock %}
+
+{% block hero %}
+	{% if query %}
+	
+		<section class="bannerHero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="bnrcont d-flex flex-column justify-content-center align-items-center">
+                            <h1>Application</h1>
+                            <p>
+							Thank you for your interest in our Job Title position.  We are very excited to speak with you about this position.  We have a number of ways you can get in touch with us, from a phone call to the Representative who manages this opening listed on the right, a traditional resume submission option as shown below, and finally, the fastest way to get your qualifications reviewed, a video introduction recorded by you and sent to our hiring manager.  We look forward to hearing from you!</p>
+                            <!--<div class="aply_refer_btns">
+                                <a href="#fill_form"><button class="btn btn-primary"><i class="fa-solid fa-angles-down me-3"></i>Go to Form<i class="fa-solid fa-angles-down ms-3"></i></button></a>
+                            </div>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>	   
+					
+	{% else %}
+
+		<section class="bannerHero">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="bnrcont d-flex flex-column justify-content-center align-items-center">
+							<h1>{{page.title}}</h1>
+							
+							
+						    {% if page.summary != page.content %}
+								
+								{{ page.summary|safe_truncate(120)|raw  }}
+							{% else %}
+								{{ page.content|safe_truncate(120)|raw }}
+							{% endif %} 
+							
+							
+							<div class="aply_refer_btns">
+								<a href="{{page.url}}?apply={{page.header.hash}}"><button class="btn btn-primary">Apply Here</button></a>
+								
+								<!--<div class="or_refer">
+									<span class="or_line"></span>
+									<label class="">Or</label>
+									<span class="or_line"></span>
+								</div>
+								<a href="#" class="refer_link">Refer Someone</a>-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	{% endif %}
+
+
+{% endblock %}
+
+{% block content %}
+
+	{% if query %}
+	 <!-- Job Apply Form section -->
+        <section class="job_apply_form pt-60">
+            <div class="container">
+                <div class="bg-light" id="fill_form">
+                    <div class="row">
+                      <div class="col-lg-8 col-md-12 p-4 p-md-5 bg-white rounded-3">
+                        <div class="d-flex mb-3 flex-column">
+                          <h2 class="text-capitalize text-center text-lg-start">Fill the Form Below</h2>
+                          
+                        </div>
+                        <form class="row mb-3" id="uploadForm" enctype="multipart/form-data">
+						  <input type="hidden" name="jobid" id="jobid" value="{{page.header.jobid}}">
+						  <input type="hidden" name="action" id="action" value="jobsubmission">
+						  <input type="hidden" name="archtype" id="archtype" value="{{page.header.custom_fields.archetype}}">
+						  
+                          <div class="col-md-6 p-3">
+                            <input required placeholder="first name" name="first_name" type="text" id="first_name" />
+                          </div>
+                          <div class="col-md-6 p-3">
+                            <input required placeholder="last name" name="last_name" type="text" id="last_name" />
+                          </div>
+                          <div class="col-md-6 p-3">
+                            <input required placeholder="E-mail" name="email" type="email"  id="email" />
+                          </div>
+                          <div class="col-md-6 p-3">
+                            <input required placeholder="phone" type="tel" name="phone" id="phone" />
+                          </div>
+                          <!--<div class="col-md-6 p-3">
+                            <input required placeholder="expected salary" type="text" name="" id="expected_salary" />
+                          </div>
+						  
+                          <div class="col-md-6 p-3">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>{{page.header.currency}}</option>
+                                <option value="1">Currency One</option>
+                                <option value="2">Currency Two</option>
+                    
+                              </select>
+                          </div>-->
+						  
+						  <div class="col-md-12 p-3">
+							<input type="file" name="file" id="file">
+						  </div>
+						  
+							
+						  <div class="col-md-12 p-3">
+							<div class="g-recaptcha" data-sitekey="6LctPTEpAAAAABDI3YcfMAlHPJEIqVoL_hAFoas1"></div>
+						  </div>
+						  <div class="col-md-12 p-3">
+                            <div class="d-flex flex-wrap">
+							
+                                <div class="d-flex justify-content-start align-items-center w-100 check_agree">
+                                  <input type="checkbox" name="notify" class="form-check-input m-0 me-3" id="notify" data-archtype="" />
+								  <label for="notify"> receive notifications</label>
+								 
+                                </div>
+								
+                            </div>
+                          </div>
+                          <div class="col-md-12 p-3">
+                            <div class="d-flex flex-wrap">
+							
+                                <div class="d-flex justify-content-start align-items-center w-100 check_agree">
+                                 
+								  
+								  <input type="checkbox" name="webdev" class="form-check-input m-0 me-3" id="webdev" />
+                                  <label for="webdev"> I agree to the <a href="https://www.careers-page.com/gentis/terms-and-conditions">terms and conditions</a>  & <a href="https://www.careers-page.com/gentis/privacy-policy">privacy policy</a></label>
+                                </div>
+								
+                            </div>
+                          </div>
+						  <!-- Add the reCAPTCHA widget -->
+						
+						
+                          <div class="text-start mt-4">
+                            <!--<input class="btn px-4 py-3 btn-outline-dark submt_btn" type="submit" value="Apply" />-->
+							<button class="btn px-4 py-3 btn-outline-dark submt_btn" type="button" onclick="uploadFile()">Apply </button>
+                          </div>
+                        </form>
+						<div id="error" style="color:red;"></div>
+						<div id="result"></div>
+                      </div>
+					  
+					  
+                      <div class="col-lg-4 col-md-12 text-white aside px-4 py-5">
+                        <div class="mb-5">
+                          <h1 class="h3">Contact Information</h1>
+                          <p class="opacity-50">
+                            <small>
+                              Fill out the from and we will get back to you whitin 24 hours
+                            </small>
+                          </p>
+                        </div>
+                        <div class="d-flex flex-column px-0">
+                          <ul class="m-0 p-0">
+                            <li class="d-flex justify-content-start align-items-center mb-4">
+                              <span class="opacity-50 d-flex align-items-center me-3 fs-2">
+                                <i class="fa-solid fa-phone text-white"></i>
+                              </span>
+                              <span>(859) 669-2731</span>
+                            </li>
+                            <li class="d-flex justify-content-start align-items-center mb-4">
+                              <span class="opacity-50 d-flex align-items-center me-3 fs-2">
+                                <i class="fa-solid fa-location-dot text-white"></i>
+                              </span>
+                              <span>50 E Rivercenter Blvd, STE 1025 <br />
+                                Covington, KY 41011
+                              </span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+	{% else %}
+        <!-- Job Details section -->
+        <section class="job_details_box pt-60">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-1 d-none d-lg-block"></div>
+                    <div class="col-lg-10">
+                       <div class="job_box">
+                            <div class="job_box_head">
+                                <div class="job_box_head_top">
+                                    <h2>{{page.title}}<span class="">({{ page.header.hash}})</span> </h2>
+									
+										<!--<i><img src="{{ url('theme://assets/images/salary_new.png') }}" alt="salary"></i>-->
+										
+										<!--<span>{{ page.header.compensation}} - {{ page.header.salary_max}}</span>-->
+										
+										
+										
+									
+									<div class="optn">
+										<span>    
+										Average Pay
+										{% if page.header.avg_sal %}
+											 $ {{ page.header.avg_sal}}
+										{% else %}
+											{{ page.header.compensation }}
+										{% endif %}
+										
+										</span>
+										
+									</div>
+                                </div>
+								<div class="job_box_head_inner">
+									<div class="job_info">
+										<h4>Openings :
+											<span class="job_cat">{{ page.header.headcount }}</span>
+											<span class="job_age">(
+											{% set pageDate = page.date %}
+											{% set currentDate = "now"|date("U") %}
+											{% set secondsDifference = currentDate - pageDate %}
+											{% set daysDifference = secondsDifference / (24 * 60 * 60) %}
+											
+											{% if daysDifference|round(0, 'floor') == 0 %}
+									
+												 Posted {{ "Today" }} 
+										
+											{% elseif daysDifference|round(0, 'floor') > 6 %}
+											
+												Posted  1 week+
+												
+											{% else %}
+												Posted  {{ daysDifference|round(0, 'floor') }} days ago
+												
+											{% endif %}
+										)</span>
+										</h4>
+									</div>
+									
+									<div class="job_info">
+										<h4>Job Type :
+											<span class="job_cat job_type">
+											{% if page.header.contract_details == 'temporary' %}
+												{{ 'Contract' }}
+											{% elseif page.header.contract_details == 'full_time' %}
+												{{ 'Full Time' }}
+											{% else %}
+												{{ 'Unknown Contract Type' }}
+											{% endif %}
+											</span>
+										</h4>
+									</div>
+								</div>
+                               
+                            </div>
+                            <div class="job_box_body">
+								 <div class="vst_wbst_lnk">
+										<div class="featrs-box post_activity">
+											<div class="featr">
+												<label>Applicants :</label>
+												<span id="applicants_{{ page.header.jobid }}">{{page.header.submitted_at}}</span>
+											</div>
+											<div class="featr">
+												<label>Interviewed :</label>
+												<span id="interviewed_{{ page.header.jobid }}">{{page.header.interview_at}}</span>
+											</div>
+											<div class="featr">
+												<label>Hirings :</label>
+												<span id="hiring_{{ page.header.jobid }}">{{page.header.hired_at}}</span>
+											</div>
+											<div class="job_published_date">
+											{% set pageDate = page.date %}
+											{% set currentDate = "now"|date("U") %}
+											{% set secondsDifference = currentDate - pageDate %}
+											{% set daysDifference = secondsDifference / (24 * 60 * 60) %}
+											<div class="featr">
+												
+												<i onclick="myFunction()" ><img src="{{ url('theme://assets/images/jd_share.png') }}" alt="Job Details"></i>
+												<div class="soclIcns" id="soclIcns">
+													 {% if config.plugins.api_blog.buttons.facebook.enabled %}
+														{% include 'partials/_facebook.html.twig' with {'page_url': full_url} %}
+													{% endif %}
+													{% if config.plugins.api_blog.buttons.linkedin.enabled %}
+														{% include 'partials/_linkedin.html.twig' with {'page_url':full_url}%}
+													{% endif %}
+													{% if config.plugins.api_blog.buttons.email.enabled %}
+														{% include 'partials/_email.html.twig' with {'page_url':full_url} %}
+													{% endif %}
+													{% if config.plugins.api_blog.buttons.twitter.enabled %}
+														{% include 'partials/_twitter.html.twig' with {'page_url':full_url}%}
+													{% endif %}
+												</div>
+												
+										
+											</div>
+									
+									   </div>
+											
+											
+										</div>
+
+								
+                        
+                                 </div>
+
+                                <div class="lctn_apply"> 
+									{% if page.header.address %}
+										<div class="location">
+											<i><img src="{{ url('theme://assets/images/loation-pin-dak.png') }}" alt="location_pin"></i>
+											<span>
+												{% set myString = page.header.address %}
+												{% set parts = myString|split(',') %}
+												{% set lastThree = parts|slice(-3)|join(' ,') %}
+												
+												{% set lastThreebutsliceone = parts|slice(-3)|reverse|slice(1)|reverse|join(', ') %}
+
+												{{ lastThreebutsliceone }}
+											
+											</span>
+										</div>
+									{% endif %} 
+                                    <!--<div class="apply_btn">
+                                        <a href="{{page.url}}?apply={{page.header.hash}}"><button class="btn btn-primary">Apply Now</button></a>
+                                    </div>-->
+                                </div>
+                                <div class="footer">
+                                    <!--<div class="featrs-box-outr">
+                                        <div class="featrs-box">
+										    <div class="featr">
+												<i><img src="{{ url('theme://assets/images/easy-apply.png') }}" alt="Easy Apply"></i>
+												<span>Easy Apply</span>
+											</div>
+											<div class="featr">
+												<i><img src="{{ url('theme://assets/images/urgently-hiring.png') }}" alt="Urgently Hiring"></i>
+												<span>Urgently Hiring</span>
+											</div>
+											<div class="featr">
+												<i><img src="{{ url('theme://assets/images/fast-response.png') }}" alt="Fast Response"></i>
+												<span>Fast Response</span>
+											</div>
+                                            
+                                        </div>
+                                    </div>-->
+                                </div>
+                                <div class="job_description">
+                                    <h3>About the job</h3>
+									 {{ page.content|raw }}
+                                </div>
+                                
+                               
+                                <div class="aply_refer_btns">
+                                    <a href="{{page.url}}?apply={{page.header.hash}}"><button class="btn btn-primary">Apply </button></a>
+                                    <div class="or_refer">
+                                        <span class="or_line"></span>
+                                        <label class="">Or</label>
+                                        <span class="or_line"></span>
+                                    </div>
+                                   
+									{% include 'partials/sharemodel.html.twig' with {job: page, full_url:full_url} %}
+									  
+                                </div>
+                            </div>
+                        </div>
+						
+						
+						
+						
+                    </div>
+					 
+                    <div class="col-lg-1 d-none d-lg-block"></div>
+					
+						
+					
+                </div>
+            </div>
+        </section>
+	{% endif %}
+{% endblock %}
+
+
+{% block mobile %}
+   
+{% endblock %}
+
+

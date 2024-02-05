@@ -1,0 +1,275 @@
+<div class="row">
+	<div class="col-lg-1 d-none d-lg-block"></div>
+	<div class="col-lg-10">
+	   <div class="job_box">
+			
+			 <div class="job_box_head">
+				<div class="job_box_head_inner">
+					<h2><a href="{{ page.url }}"> {{ page.title }} </a>
+						<span class="job_cat">({{ page.header.hash}})</span>
+					</h2>
+					
+					<div class="point_box">
+						<!--<i><img src="{{ url('theme://assets/images/salary_new.png') }}" alt="salary"></i>-->
+						
+						<!--<span>{{ page.header.compensation}} - {{ page.header.salary_max}}</span>-->
+						
+						<span>    
+						Average Pay 
+						{% if page.header.avg_sal %}
+							 $ {{ page.header.avg_sal}} USD
+						{% else %}
+							{{ page.header.compensation }}
+						{% endif %}
+						
+						<!--{% if page.header.salary_min %}
+							{{ page.header.salary_min}}
+						{% endif %}
+						{% if page.header.salary_max %}
+							,{{ page.header.salary_max}}
+						{% endif %}-->
+						
+						</span>
+						
+					</div>
+					
+				</div>
+				<div class="job_box_head_inner">
+					<div class="job_info">
+						<h4>Openings :
+							<span class="job_cat">{{ page.header.headcount }}</span>
+							<!--added-->
+							{% set pageDate = page.date %}
+						{% set currentDate = "now"|date("U") %}
+						{% set secondsDifference = currentDate - pageDate %}
+						{% set daysDifference = secondsDifference / (24 * 60 * 60) %}
+						<span>
+						
+						<!--
+						{% if daysDifference|round(0, 'floor') == 0 %}
+							<span class="gray" style="color: #818181!important"> Posted </span>{{ "Today" }} 
+						{% else %}
+							<span class="gray" style="color: #818181!important" >Posted </span> {{ daysDifference|round(0, 'floor') }} days ago
+						{% endif %}-->
+						
+						{% if daysDifference|round(0, 'floor') == 0 %}
+						
+							<span class="gray" style="color: #818181!important"> Posted </span>{{ "Today" }} 
+							
+						{% elseif daysDifference|round(0, 'floor') > 6 %}
+						
+							<!--<span class="gray" style="color: #818181!important" >Posted </span> {{ (daysDifference / 7)|round(0, 'floor') }} W+-->
+							
+							<span class="gray" style="color: #818181!important" >Posted </span> 1 week+
+							
+						{% else %}
+							<span class="gray" style="color: #818181!important" >Posted </span> {{ daysDifference|round(0, 'floor') }} days ago
+						{% endif %}
+						 </span>
+						<!--added-->
+						</h4>
+					</div>
+					
+					<div class="job_info">
+						<h4>Job Type :
+							<span class="job_cat job_type">
+							{% if page.header.contract_details == 'temporary' %}
+								{{ 'Contract' }}
+							{% elseif page.header.contract_details == 'full_time' %}
+								{{ 'Full Time' }}
+							{% else %}
+								{{ 'Unknown Contract Type' }}
+							{% endif %}
+							</span>
+						</h4>
+					</div>
+				</div>
+				
+			</div>
+			<div class="job_box_body">
+				
+				<div class="job_post_details d-flex justify-content-between align-items-start w-100">
+					<div class="job_main_points d-flex justify-content-start align-items-start flex-wrap">
+						{% if page.header.address %}
+							<div class="point_box">
+								<i><img src="{{ url('theme://assets/images/loation-pin-dak.png') }}" alt="location_pin"></i>
+								<span>
+								
+								
+									{% set myString = page.header.address %}
+									{% set parts = myString|split(',') %}
+									{% set lastThree = parts|slice(-3)|join(' ,') %}
+									
+									{% set lastThreebutsliceone = parts|slice(-3)|reverse|slice(1)|reverse|join(', ') %}
+
+									{{ lastThreebutsliceone }}
+							   
+							  
+								</span>
+							</div>
+						{% endif %} 
+						
+						
+					</div>
+					
+					<div class="apply_btn">
+						<a href="{{ page.url }}" class="btn btn-primary">Apply Now</a>
+					</div>
+					
+					<!--<div class="job_published_date">
+						{% set pageDate = page.date %}
+						{% set currentDate = "now"|date("U") %}
+						{% set secondsDifference = currentDate - pageDate %}
+						{% set daysDifference = secondsDifference / (24 * 60 * 60) %}
+						<span>
+						
+						
+						
+						{% if daysDifference|round(0, 'floor') == 0 %}
+						
+							<span class="gray" style="color: #818181!important"> Posted </span>{{ "Today" }} 
+							
+						{% elseif daysDifference|round(0, 'floor') > 6 %}
+						
+							
+							
+							<span class="gray" style="color: #818181!important" >Posted </span> 1 week+
+							
+						{% else %}
+							<span class="gray" style="color: #818181!important" >Posted </span> {{ daysDifference|round(0, 'floor') }} days ago
+						{% endif %}
+						 </span>
+					</div>-->
+				</div>
+				<div class="job_description">
+					<!--<h3>Description </h3>-->
+					<p>
+					      
+						  
+						  
+							
+							
+							{{ page.content|striptags|split('</p>')|first|slice(0, 500)|trim|split('.')|slice(0, -1)|join('.') }}
+
+						 
+						  
+						  
+
+
+						<!--{% if page.summary != page.content %}
+						{{ page.content|striptags|slice(0, 450)|raw }}
+							{{ page.summary|striptags|raw }}
+							
+						{% else %}
+							{{ page.content|striptags|raw }}
+							
+						{% endif %} -->
+						
+					</p>
+					
+				</div>
+				<div class="footer">
+					<div class="featrs-box-outr">
+						
+						
+						
+						<div class="featrs-box post_activity">
+							<div class="featr">
+								<label>Applicants :</label>
+								<span id="applicants_{{ page.header.jobid }}">{{page.header.submitted_at}}</span>
+							</div>
+							<div class="featr">
+								<label>Interviewing :</label>
+								<span id="interviewed_{{ page.header.jobid }}">{{page.header.interview_at}}</span>
+							</div>
+							<div class="featr">
+								<label>Hired :</label>
+								<span id="hiring_{{ page.header.jobid }}">{{page.header.hired_at}}</span>
+							</div>
+						</div>
+						<!--<div class="visit-time">
+							<span> status : {{ page.header.status }}</span>
+						</div>-->
+					</div>
+					<!--<div class="job_published_date">
+						{% set pageDate = page.date %}
+						{% set currentDate = "now"|date("U") %}
+						{% set secondsDifference = currentDate - pageDate %}
+						{% set daysDifference = secondsDifference / (24 * 60 * 60) %}
+						<span>
+						
+						<!--
+						{% if daysDifference|round(0, 'floor') == 0 %}
+							<span class="gray" style="color: #818181!important"> Posted </span>{{ "Today" }} 
+						{% else %}
+							<span class="gray" style="color: #818181!important" >Posted </span> {{ daysDifference|round(0, 'floor') }} days ago
+						{% endif %}-->
+						
+						{% if daysDifference|round(0, 'floor') == 0 %}
+						
+							<span class="gray" style="color: #818181!important"> Posted </span>{{ "Today" }} 
+							
+						{% elseif daysDifference|round(0, 'floor') > 6 %}
+						
+							<!--<span class="gray" style="color: #818181!important" >Posted </span> {{ (daysDifference / 7)|round(0, 'floor') }} W+-->
+							
+							<span class="gray" style="color: #818181!important" >Posted </span> 1 week+
+							
+						{% else %}
+							<span class="gray" style="color: #818181!important" >Posted </span> {{ daysDifference|round(0, 'floor') }} days ago
+						{% endif %}
+						 </span>
+					</div>-->
+					<!--<div class="apply_btn">
+						<a href="{{ page.url }}" class="btn btn-primary">Apply Now</a>
+					</div>-->
+				</div>
+			</div>
+		
+		
+	   </div>
+	</div>
+	<div class="col-lg-1 d-none d-lg-block"></div>
+</div>
+<script> 
+	//var jobIdToSearch = "1493819";
+	 // Example usage:
+	//var jobId = 1253551;
+	<!-- var jobId = {{ page.header.jobid }};
+	/*fetchJobMatches(jobId)
+	  .then(jsonResult => {
+		console.log(jsonResult.results);
+		console.log(`Data for job ID ${jobId}:`);
+		var count_submitted_at = jsonResult.results.filter(item => item.submitted_at !== null).length;
+		var count_interview_at = jsonResult.results.filter(item => item.interview_at !== null).length;
+		var count_hired_at = jsonResult.results.filter(item => item.hired_at !== null).length;
+		document.getElementById("applicants_" + jobId).innerHTML = '<strong>' + count_submitted_at + '</strong>';
+		document.getElementById("interviewed_" + jobId).innerHTML = '<strong>' + count_interview_at + '</strong>';
+		document.getElementById("hiring_" + jobId).innerHTML = '<strong>' + count_hired_at + '</strong>';
+	  }) */
+  
+	 /*var jobIdToSearch = {{ page.header.jobid }};
+	 fetchDataAndSearch(jobIdToSearch)
+	  .then(result => {
+		console.log(`Data for job ID ${jobIdToSearch}:`);
+		//console.log(result);
+		// Count the objects where submitted_at is not empty
+		var count_submitted_at = result.filter(item => item.submitted_at !== null).length;
+		var count_interview_at = result.filter(item => item.interview_at !== null).length;
+		var count_hired_at = result.filter(item => item.hired_at !== null).length;
+		 console.log("count_hired_at : "+count_submitted_at);
+		 console.log("count_interview_at :"+count_interview_at);
+		 console.log("count_hired_at : "+count_hired_at);
+		 console.log('#applicants_'+jobIdToSearch);
+		document.getElementById("applicants_"+jobIdToSearch).innerHTML = '<strong>'+count_submitted_at+'</strong>';
+		document.getElementById("interviewed_"+jobIdToSearch).innerHTML = '<strong>'+count_interview_at+'</strong>';
+		document.getElementById("hiring_"+jobIdToSearch).innerHTML = '<strong>'+count_hired_at+'</strong>';
+		
+	  })
+	  .catch(error => {
+		console.error(error);
+	  }); */
+</script>
+
+                
+

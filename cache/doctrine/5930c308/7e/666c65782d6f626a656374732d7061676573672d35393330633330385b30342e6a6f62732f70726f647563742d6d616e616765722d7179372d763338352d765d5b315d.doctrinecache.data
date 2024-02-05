@@ -1,0 +1,48 @@
+1706166565
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:31:"jobs/product-manager-qy7-v385-v";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:15:"Product Manager";s:4:"date";s:27:"2023-12-20T22:36:38.304610Z";s:8:"modified";s:27:"2023-12-20T22:40:48.832308Z";s:5:"jobid";i:1497216;s:8:"currency";s:3:"USD";s:7:"address";s:49:"BTC - 11450 Grooms Road, Blue Ash, OH, 45242, USA";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/QY7V385V";s:4:"hash";s:8:"QY7V385V";s:12:"organization";i:94942;s:10:"salary_min";s:0:"";s:10:"salary_max";s:0:"";s:7:"avg_sal";s:0:"";s:12:"is_published";b:1;s:9:"is_remote";N;s:10:"created_at";s:27:"2023-12-20T22:36:38.304610Z";s:10:"updated_at";s:27:"2023-12-20T22:40:48.832308Z";s:5:"owner";i:22120;s:16:"contract_details";s:9:"temporary";s:9:"headcount";i:1;s:12:"compensation";s:10:"Negotiable";s:8:"hired_at";i:0;s:12:"submitted_at";i:11;s:12:"interview_at";i:0;s:13:"custom_fields";a:5:{s:5:"jobid";s:30:"9994 - Product Manager Level 2";s:9:"archetype";s:16:"Project Services";s:12:"managernotes";s:566:"<p>Local candidates only. 3 days/week in the office. </p>
+<p>Top 3 Non-negotiable Skills:</p>
+<ol><li>Machine Learning</li><li>Data Analytics </li><li>Technical background, familiarity with Azure</li></ol>
+<p>Interview:  Panel with a technical screening, multiple rounds possible.</p>
+<p>Looking to onboard immediately. </p>
+<p><strong><span style="background-color: rgb(255, 255, 0);" data-redactor-style-cache="background-color: rgb(255, 255, 0);">Hirevue- 7 questions, no previous scores will be transferred. The assessment is very ML focused.</span></strong></p>";s:14:"engagementtype";a:1:{i:0;s:16:"Contract-to-Hire";}s:20:"clientsubmissiontype";a:1:{i:0;s:19:"Client Portal (VMS)";}}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:16:"Project Services";}s:3:"tag";a:1:{i:0;s:22:"Information Technology";}}}s:11:"frontmatter";s:1499:"title: 'Product Manager'
+date: '2023-12-20T22:36:38.304610Z'
+modified: '2023-12-20T22:40:48.832308Z'
+jobid: 1497216
+currency: USD
+address: 'BTC - 11450 Grooms Road, Blue Ash, OH, 45242, USA'
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/QY7V385V'
+hash: QY7V385V
+organization: 94942
+salary_min: ''
+salary_max: ''
+avg_sal: ''
+is_published: true
+is_remote: null
+created_at: '2023-12-20T22:36:38.304610Z'
+updated_at: '2023-12-20T22:40:48.832308Z'
+owner: 22120
+contract_details: temporary
+headcount: 1
+compensation: Negotiable
+hired_at: 0
+submitted_at: 11
+interview_at: 0
+custom_fields:
+    jobid: '9994 - Product Manager Level 2'
+    archetype: 'Project Services'
+    managernotes: "<p>Local candidates only. 3 days/week in the office. </p>\n<p>Top 3 Non-negotiable Skills:</p>\n<ol><li>Machine Learning</li><li>Data Analytics </li><li>Technical background, familiarity with Azure</li></ol>\n<p>Interview:  Panel with a technical screening, multiple rounds possible.</p>\n<p>Looking to onboard immediately. </p>\n<p><strong><span style=\"background-color: rgb(255, 255, 0);\" data-redactor-style-cache=\"background-color: rgb(255, 255, 0);\">Hirevue- 7 questions, no previous scores will be transferred. The assessment is very ML focused.</span></strong></p>"
+    engagementtype:
+        - Contract-to-Hire
+    clientsubmissiontype:
+        - 'Client Portal (VMS)'
+taxonomy:
+    category:
+        - jobs
+        - 'Project Services'
+    tag:
+        - 'Information Technology'";s:8:"markdown";s:2515:"<p>﻿Gentis Solutions is seeking a Product Manager&nbsp;to join our team. This contract-to-hire position is with one of our Fortune 50 clients interested in full-time consultants. The ideal candidates will have the required skills listed below and will be eligible and open to being hired by our client at the end of the project's duration. This position works alongside an existing team and leverages enterprise-level technologies and processes. If you would like to work at a company that has been recognized for its diversity and inclusion, its work to drive positive social change, and as an environmental leader, make sure you apply below.<br></p>
+<p><strong>﻿Requirements</strong></p>
+<ul><li>Machine Learning</li><li>Data Analytics</li><li>Technical background, familiarity with Azure</li></ul>
+<p><strong style="font-family: inherit; font-size: 0.875rem;">﻿Typical Duties</strong><br></p>
+<ul><li>Manage all technical aspects of the product through product lifecycle</li><li>Work directly and indirectly with business stakeholders, vendors and third parties to ensure execution of deliverables</li><li>Create, maintain and communicate product catalog and technology roadmaps, including near-term delivery, to engage stakeholders across the organization</li><li>Identify, measure and improve key product catalog metrics to enhance the customer experience, and create a compelling, relevant product vision using web metrics, customer insights,  feedback, research and internal operational metrics</li><li>Elicit, define and analyze medium to complex requirements in various formats ensuring they are testable, measurable and traceable</li><li>Set criteria for minimum viable product to increase the speed/frequency with which enhancements and new capabilities are delivered</li><li>Lead the appropriate teams to refine, prioritize and manage requirements using various tools (e.g., templates, team backlogs, requirements management or agile task management applications)</li><li>Lead requirement walk-throughs with key stakeholders using various methods (e.g., team demos, workshops, sprint planning and backlog refinement sessions)</li><li>Identify and estimate anticipated work efforts based on priority using requirement work plans, program increment (PI) planning, and sprint planning</li><li>Define and resolve dependencies, issues and risks and identify impacted areas through team collaboration</li><li>Break down a medium to complex vision into smaller projects, initiatives or features</li></ul>";}s:7:"storage";a:6:{s:3:"key";s:31:"jobs/product-manager-qy7-v385-v";s:11:"storage_key";s:34:"04.jobs/product-manager-qy7-v385-v";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165877;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165877;}}s:8:"checksum";s:32:"02767f4a330f8fabdd2367eb458158c1";}}

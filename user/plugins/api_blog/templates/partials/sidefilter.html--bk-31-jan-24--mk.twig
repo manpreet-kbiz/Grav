@@ -1,0 +1,183 @@
+<style>
+		body, html {
+		  margin: 0;
+		  padding: 0;
+		  height: 100%;
+		}
+        /* Styles for the loader */
+        .loader {
+            border: 8px solid #f3f3f3;
+            border-top: 8px solid #3498db;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            display: none; /* Initially hide the loader */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-top: -25px; /* Half of the loader's height */
+            margin-left: -25px; /* Half of the loader's width */
+			z-index:999;
+			
+        }
+
+        /* Animation for the loader */
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+		
+ </style>
+{% set tagparam = uri.param('tag') %}
+{% set categoryparam = uri.param('category') %}
+
+<div class="row filterdropdown">	
+   <div id="loader" class="loader"></div>
+    <form action="http://localhost/grav/jobs" method="post">
+	    <input type="hidden" name="sidebarsearch" value="1">
+        <h4 class="apply-filters-heading"> Apply Filters </h4>
+		<!-- Select industry -->
+        <h3 class="sidebar-select-option-heading">Select industry </h3>
+	
+		<div class="opt-val">
+			{% for industry in all_tags %}
+				{% if industry %}
+					<input type="checkbox" id="industry_{{ forloop.counter }}" name="industry[]"  onclick="simulateLongRunningTask()"  value="{{ industry }}" class="common-class industry-checkbox">
+					<label for="industry_{{ forloop.counter }}"> {{ industry }}</label><br>
+				{% endif %}
+			{% endfor %}
+        </div>
+		<!-- Select industry end -->
+		
+        <h3 class="sidebar-select-option-heading">Select Archtype </h3>
+		
+		<div class="opt-val">
+			<!-- Container to display selected archetype -->
+			<div id="selectedArchetype"></div>
+		</div>	
+		<input type="hidden" value="" id="selectedarchtype" name="selectedarchtype">
+		
+		<!-- Enter Location -->
+		 <h3 class="sidebar-select-option-heading">Enter Location </h3>
+		 <div class="opt-val">
+			<input type="input" id="Location" name="location" value="{{ industry }}" placeholder="Enter City">
+			<label for="{{ industry }}"> {{ industry }}</label><br>
+			 </div>	
+			 
+		
+		<!--Job Age  -->
+		 <h3 class="sidebar-select-option-heading">Job Age  </h3>
+				<div class="opt-val">
+				<select class= "sidebar-select-option"  id="timeFrame" name="timeFrame">
+				    <option value=""> Select Job Age </option>
+					<option value="This week">This week</option>
+				    <option value="This month">This month</option>
+					<option value="This Quarter">This Quarter</option>
+				
+				</select>
+				</div>	
+		<!-- PayRange  -->
+		 <h3 class="sidebar-select-option-heading">PayRange </h3>
+				<div class="opt-val">
+				<select  class="sidebar-select-option" id="payRange" name="payRange">
+					<option value="20000-80000">$20,000-$80,000</option>
+					<option value="50000-100000">$50,000-$100,000</option>
+					<option value="100000-150000">$100,000-$150,000</option>
+					<option value="150000-200000">$150,000-$200,000</option>
+					<option value="200000">$200,000+</option>
+			  </select>
+			</div>
+		<br>
+       	<button type="submit" class="btn btn-primary search-submit-btn-sidefiltr">Search</button>
+    </form>
+</div>
+
+<script>
+
+	const indAndTags = {{ ind_and_tags|json_encode|raw }};
+	//document.getElementById("loader").style.display = "block";
+	document.addEventListener('DOMContentLoaded', function () {
+		var selectedArchetypeContainer = document.getElementById('selectedArchetype');
+		
+		
+		var checkboxes = document.querySelectorAll('.industry-checkbox');
+		//alert("dddd");
+		checkboxes.forEach(function(checkbox) {
+		    
+		   // iterateCheckedCheck(indAndTags, selectedArchetypeContainer);
+			
+			checkbox.addEventListener('change', function() {
+				document.getElementById("loader").style.display = "block";
+				selectedArchetypeContainer.innerHTML = "";
+				// Get all checked checkboxes
+
+				
+				iterateCheckedCheck(indAndTags, selectedArchetypeContainer);
+				
+				setTimeout(function() {
+					document.getElementById("loader").style.display = "none";
+				}, 3000);
+				
+			});
+		});
+		
+		//Archtype check event
+		
+	});
+	
+	function iterateCheckedCheck(indAndTags, selectedArchetypeContainer){
+		var checkedCheckboxes = document.querySelectorAll('.industry-checkbox:checked');
+		// Iterate through checked checkboxes
+		checkedCheckboxes.forEach(function(checkedCheckbox) {
+			console.log('Checked Checkbox: ', checkedCheckbox.value);
+			var selectedIndustry = checkedCheckbox.value;
+			var selectedIndustry = checkedCheckbox.value;
+			  if (selectedIndustry && typeof indAndTags[selectedIndustry] === 'object') {
+			  
+				for (const jobTitle in indAndTags[selectedIndustry]) {
+					if (indAndTags[selectedIndustry].hasOwnProperty(jobTitle)) {
+						var checkboxw = document.createElement('input');
+						checkboxw.type = 'checkbox';
+						checkboxw.name = 'categoryparam[]';
+						checkboxw.value = indAndTags[selectedIndustry][jobTitle];
+						checkboxw.className = 'catclass';
+
+						// Create label for the checkbox
+						var label = document.createElement('label');
+						label.htmlFor = indAndTags[selectedIndustry][jobTitle];
+						label.className = 'catlabel';
+						label.textContent = indAndTags[selectedIndustry][jobTitle];
+
+						// Create line break
+						var lineBreak = document.createElement('br');
+						
+						//code for the  Archtype change event  Start
+						
+						/*var archtypeCheckboxes = document.querySelectorAll('.catclass');
+						archtypeCheckboxes.forEach(function(arcchecked) {
+							console.log(arcchecked);
+						}); */
+						//code for the  Archtype change event end
+						//document.getElementById("loader").style.display = "none";
+						
+						selectedArchetypeContainer.appendChild(checkboxw);
+						selectedArchetypeContainer.appendChild(label);
+						selectedArchetypeContainer.appendChild(lineBreak);
+								
+					}
+				}
+			}
+		});
+		
+	}
+	
+	
+
+</script>
+
+	
+
+
+
+

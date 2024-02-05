@@ -1,0 +1,51 @@
+1706682317
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:46:"jobs/mechanical-designer-industrial-qy8-vx76-v";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:31:"Mechanical Designer, Industrial";s:4:"date";s:27:"2023-07-05T16:18:14.626738Z";s:8:"modified";s:27:"2023-08-18T15:25:27.564671Z";s:5:"jobid";i:1260588;s:8:"currency";N;s:7:"address";s:43:"St. Paul, MN, Fargo, ND or Cedar Rapids, IA";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/QY8VX76V";s:4:"hash";s:8:"QY8VX76V";s:12:"organization";i:666508;s:10:"salary_min";s:13:"$80,000.00/yr";s:10:"salary_max";s:14:"$120,000.00/yr";s:7:"avg_sal";s:10:"100,000.00";s:12:"is_published";b:1;s:9:"is_remote";N;s:10:"created_at";s:27:"2023-07-05T16:18:14.626738Z";s:10:"updated_at";s:27:"2023-08-18T15:25:27.564671Z";s:5:"owner";i:24730;s:16:"contract_details";s:9:"full_time";s:9:"headcount";i:1;s:12:"compensation";s:14:"$120,000.00/yr";s:8:"hired_at";i:0;s:12:"submitted_at";i:18;s:12:"interview_at";i:1;s:13:"custom_fields";a:7:{s:9:"archetype";s:14:"Draft Engineer";s:12:"managernotes";s:1137:"<p><br></p><p>8/18.&nbsp;﻿</p><ul><li>AutoCAD 2D experience is required; being skilled at 3D AutoCAD would be highly desired</li><li>design experience in a consulting and/or construction capacity is preferred.</li></ul><p>Location:  Can be in St. Paul, MN, Fargo, ND or Cedar Rapids, IA﻿</p>
+<p>Position: Mechanical Designer, Industrial, Process, and Agribusiness</p>
+<p>Reporting Relationship: Senior Project Manager, Industrial, Process and Agribusiness</p>
+<p>Not remote, will work onsite</p>
+<p><span style="font-family: inherit; font-size: 0.875rem;" data-redactor-span="true" data-redactor-style-cache="font-family: inherit; font-size: 0.875rem;">The Mechanical Designer, IPA plays a key role in the successful execution of projects, focusing primarily on the production of AutoCAD drawings. Reporting to the Senior Project Manager, IPA, the Mechanical Designer is responsible for producing quality construction documents and coordinating design work with other engineering disciplines. The successful candidate will also be expected to work within a team environment and collaborate with other project team members.</span></p>";s:13:"hiringmanager";s:20:"Michelle Timmermanis";s:14:"engagementtype";a:1:{i:0;s:11:"Direct Hire";}s:15:"payrateguidance";s:25:"<p>Salary Rate:80-120</p>";s:17:"grossprofitamount";i:25000;s:20:"clientsubmissiontype";a:1:{i:0;s:5:"Email";}}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:14:"Draft Engineer";}s:3:"tag";a:1:{i:0;s:11:"Engineering";}}}s:11:"frontmatter";s:2166:"title: 'Mechanical Designer, Industrial'
+date: '2023-07-05T16:18:14.626738Z'
+modified: '2023-08-18T15:25:27.564671Z'
+jobid: 1260588
+currency: null
+address: 'St. Paul, MN, Fargo, ND or Cedar Rapids, IA'
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/QY8VX76V'
+hash: QY8VX76V
+organization: 666508
+salary_min: '$80,000.00/yr'
+salary_max: '$120,000.00/yr'
+avg_sal: '100,000.00'
+is_published: true
+is_remote: null
+created_at: '2023-07-05T16:18:14.626738Z'
+updated_at: '2023-08-18T15:25:27.564671Z'
+owner: 24730
+contract_details: full_time
+headcount: 1
+compensation: '$120,000.00/yr'
+hired_at: 0
+submitted_at: 18
+interview_at: 1
+custom_fields:
+    archetype: 'Draft Engineer'
+    managernotes: "<p><br></p><p>8/18.&nbsp;﻿</p><ul><li>AutoCAD 2D experience is required; being skilled at 3D AutoCAD would be highly desired</li><li>design experience in a consulting and/or construction capacity is preferred.</li></ul><p>Location:  Can be in St. Paul, MN, Fargo, ND or Cedar Rapids, IA﻿</p>\n<p>Position: Mechanical Designer, Industrial, Process, and Agribusiness</p>\n<p>Reporting Relationship: Senior Project Manager, Industrial, Process and Agribusiness</p>\n<p>Not remote, will work onsite</p>\n<p><span style=\"font-family: inherit; font-size: 0.875rem;\" data-redactor-span=\"true\" data-redactor-style-cache=\"font-family: inherit; font-size: 0.875rem;\">The Mechanical Designer, IPA plays a key role in the successful execution of projects, focusing primarily on the production of AutoCAD drawings. Reporting to the Senior Project Manager, IPA, the Mechanical Designer is responsible for producing quality construction documents and coordinating design work with other engineering disciplines. The successful candidate will also be expected to work within a team environment and collaborate with other project team members.</span></p>"
+    hiringmanager: 'Michelle Timmermanis'
+    engagementtype:
+        - 'Direct Hire'
+    payrateguidance: '<p>Salary Rate:80-120</p>'
+    grossprofitamount: 25000
+    clientsubmissiontype:
+        - Email
+taxonomy:
+    category:
+        - jobs
+        - 'Draft Engineer'
+    tag:
+        - Engineering";s:8:"markdown";s:1995:"<p>Gentis Solutions seeks a ﻿Mechanical Designer, Industrial ﻿that is service-oriented and results-driven. Our client prioritizes the needs of their clients and they are looking for a team member that has the skills required for the&nbsp;﻿successful execution of projects, focusing primarily on the production of AutoCAD drawings. If you want to work for a company that ﻿is passionate about helping companies implement their vision, apply today!</p>
+<p><strong>Requirements</strong></p>
+<ul><li>﻿An AAS Degree in design/drafting</li><li>﻿Experience in one or more of the following:<ul><li>﻿Agribusiness process plants</li><li>﻿Facility manufacturing</li><li>﻿Food Manufacturing / Clean Systems</li><li>﻿Central boiler and/or chiller plants</li><li>﻿Underground tunnel distribution systems</li></ul></li><li>Mechanical equipment/skid design</li><li>AutoCAD 2D experience</li><li>Capable of operating with minimal supervision</li><li>Ability to travel by car and/or air and remain for overnight stays</li></ul>
+<p><strong>Desirable Skills</strong></p>
+<ul><li>﻿5-10 years of design experience in a consulting and/or construction capacity is preferred</li><li>﻿Skilled at 3D AutoCAD would be highly desired</li><li>﻿Field experience is not required, but is desirable</li></ul>
+<p><strong>Typical Duties</strong></p>
+<ul><li>﻿Layout and design mechanical systems for assigned projects</li><li>General Arrangement Drawings</li><li>P&amp;ID preparation</li><li>Construction Documents</li><li>Creation of 3D-models and piping isometric drawings</li><li>Perform design work on complex and diverse projects, often requiring multiple technologies</li><li>Coordinate project design with other disciplines</li><li>Perform accurate design calculations and measurements</li><li>Conduct construction observations</li><li>Size and select components for mechanical systems</li><li>Collaborate with others as a CAD and design resource and provide training when assigned<br></li></ul>";}s:7:"storage";a:6:{s:3:"key";s:46:"jobs/mechanical-designer-industrial-qy8-vx76-v";s:11:"storage_key";s:49:"04.jobs/mechanical-designer-industrial-qy8-vx76-v";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165870;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165870;}}s:8:"checksum";s:32:"68b8137b89ae59151b904ef38ff736d6";}}

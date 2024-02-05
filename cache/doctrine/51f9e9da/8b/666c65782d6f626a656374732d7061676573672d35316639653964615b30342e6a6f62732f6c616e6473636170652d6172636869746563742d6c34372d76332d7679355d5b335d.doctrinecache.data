@@ -1,0 +1,44 @@
+1706682345
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:35:"jobs/landscape-architect-l47-v3-vy5";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:19:"Landscape Architect";s:4:"date";s:27:"2024-01-17T13:20:06.784022Z";s:8:"modified";s:27:"2024-01-17T13:43:30.927149Z";s:5:"jobid";i:1553854;s:8:"currency";s:3:"USD";s:7:"address";s:0:"";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/L47V3VY5";s:4:"hash";s:8:"L47V3VY5";s:12:"organization";i:301555;s:10:"salary_min";s:13:"$70,000.00/yr";s:10:"salary_max";s:13:"$85,000.00/yr";s:7:"avg_sal";s:9:"77,500.00";s:12:"is_published";b:1;s:9:"is_remote";N;s:10:"created_at";s:27:"2024-01-17T13:20:06.784022Z";s:10:"updated_at";s:27:"2024-01-17T13:43:30.927149Z";s:5:"owner";i:24730;s:16:"contract_details";s:9:"full_time";s:9:"headcount";i:1;s:12:"compensation";s:13:"$85,000.00/yr";s:8:"hired_at";i:0;s:12:"submitted_at";i:1;s:12:"interview_at";i:0;s:13:"custom_fields";a:5:{s:9:"archetype";s:13:"General Labor";s:14:"engagementtype";a:1:{i:0;s:11:"Direct Hire";}s:15:"payrateguidance";s:20:"<p>Salary 70-85k</p>";s:17:"grossprofitamount";i:15500;s:20:"clientsubmissiontype";a:1:{i:0;s:5:"Email";}}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:13:"General Labor";}s:3:"tag";a:1:{i:0;s:11:"Engineering";}}}s:11:"frontmatter";s:889:"title: 'Landscape Architect'
+date: '2024-01-17T13:20:06.784022Z'
+modified: '2024-01-17T13:43:30.927149Z'
+jobid: 1553854
+currency: USD
+address: ''
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/L47V3VY5'
+hash: L47V3VY5
+organization: 301555
+salary_min: '$70,000.00/yr'
+salary_max: '$85,000.00/yr'
+avg_sal: '77,500.00'
+is_published: true
+is_remote: null
+created_at: '2024-01-17T13:20:06.784022Z'
+updated_at: '2024-01-17T13:43:30.927149Z'
+owner: 24730
+contract_details: full_time
+headcount: 1
+compensation: '$85,000.00/yr'
+hired_at: 0
+submitted_at: 1
+interview_at: 0
+custom_fields:
+    archetype: 'General Labor'
+    engagementtype:
+        - 'Direct Hire'
+    payrateguidance: '<p>Salary 70-85k</p>'
+    grossprofitamount: 15500
+    clientsubmissiontype:
+        - Email
+taxonomy:
+    category:
+        - jobs
+        - 'General Labor'
+    tag:
+        - Engineering";s:8:"markdown";s:735:"<p>﻿Gentis Solutions is seeking a Landscape Architect&nbsp;for a full-time position with our client. The ideal candidate will be licensed in Kentucky and have design and project management experience. If you are qualified, make sure you apply.<br></p>
+<p><strong>Requirements</strong></p>
+<ul><li>Licensed in KY</li><li>Degree in Landscape Architecture</li><li>10+ years experience</li><li>Design and Project Management experience required</li><li>AutoCAD experience</li><li>Photoshop﻿ experience</li><li>Illustrator﻿ experience</li></ul>
+<ul></ul>
+<p><strong>Typical Duties</strong><br></p>
+<ul><li>Planning</li><li>Landscape design</li><li>Technical production</li><li>Construction oversight</li><li>Public engagement</li></ul>";}s:7:"storage";a:6:{s:3:"key";s:35:"jobs/landscape-architect-l47-v3-vy5";s:11:"storage_key";s:38:"04.jobs/landscape-architect-l47-v3-vy5";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165863;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165863;}}s:8:"checksum";s:32:"783cf6888088d020e3ff9c6155286d0f";}}

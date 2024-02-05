@@ -1,0 +1,113 @@
+.apply_form input[type="text"],
+.apply_form input[type="email"],
+.apply_form input[type="tel"],
+.apply_form textarea {
+  border: none;
+  border-bottom: 2px solid rgb(128, 126, 126);
+  background: transparent;
+  outline: none;
+  width: 100%;
+  text-transform: capitalize;
+  padding: 1rem 0.4rem;
+}
+.apply_form .aside {
+  background-image: linear-gradient(
+    to left bottom,
+    #051937,
+    #002350,
+    #002d69,
+    #003684,
+    #01409f
+  );
+  animation: animateClr 5s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99);
+  background-size: 400%;
+}
+
+@keyframes animateClr {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/* ======= Custom Css ======== */
+.apply_form .bg-light {
+    background-color: #f8f9fa!important;
+    width: 100%;
+    border-width: 1px;
+    border-color: rgb(211, 211, 211);
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 7.68px 0.32px rgba(26, 59, 107, 0.2);
+    overflow: hidden;
+}
+.apply_form .check_agree label {
+    font-size: 16px;
+    letter-spacing: 1.2px;
+}
+.apply_form .check_agree label a{
+    color: #0a8cfb;
+    font-size: 16px;
+}
+.apply_form .submt_btn {
+    min-width: 250px;
+    border-color: #1a3b6b;
+    background-color: #1a3b6b;
+    color: #fff;
+    font-size: 18px;
+}
+.apply_form .submt_btn:hover {
+    min-width: 250px;
+    border-color: #1a3b6b;
+    background-color: #1a3b6b;
+    color: #fff;
+    font-size: 18px;
+}
+.apply_form .form-select{
+    border: none;
+    border-bottom: 2px solid rgb(128, 126, 126);
+    background: transparent;
+    outline: none;
+    width: 100%;
+    text-transform: capitalize;
+    padding: 1rem 0.4rem;
+    border-radius: 0;
+}
+.apply_form .form-select:focus{
+    box-shadow: none;
+}
+.apply_form .form-select:active{
+    box-shadow: none;
+}
+.apply_form h2{
+    color: #1a3b6b;
+    font-size: 40px;
+}
+.apply_form .bannerHero{
+    background-image: url(../images/jd_banner_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    margin-top: 43px;
+
+}
+
+.apply_form  .bannerHero::before{
+    display: none;
+}

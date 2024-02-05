@@ -1,0 +1,132 @@
+<style>
+
+.modalbtn.btn-primary{
+    min-width: 426px!important;
+}
+#loader {
+	display: none;
+	border: 4px solid #f3f3f3;
+	border-top: 4px solid #3498db;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	animation: spin 1s linear infinite;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -15px;
+	margin-left: -15px;
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+.error {
+	color: red;
+}
+.success {
+	color: green;
+} 
+</style>
+
+<i type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><button class="btn btn-primary">Share </button></i>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Share this Job Via Email</h5>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+			  <form id="myForm">
+				<div class="mb-3">
+					<label for="exampleInputEmail1" class="form-label">Email address</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+					<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+					<input type="hidden" name="shareurl" value="{{ full_url }}"/>
+					<div id="emailError" class="error"></div>
+				</div>
+				<button type="button" class="btn btn-primary modalbtn" onclick="validateAndSubmit()">Share Now</button>
+				 <div id="loader"></div>
+				 <div id="response"></div>
+			</form>
+		</div>
+	  </div>
+	</div>
+</div>
+<!-- modal end -->
+<script>
+
+function validateAndSubmit() {
+		document.getElementById('emailError').innerText = '';
+		// Validate email
+		var emailInput = document.getElementById('exampleInputEmail1');
+		var email = emailInput.value.trim();
+
+		if (!validateEmail(email)) {
+			document.getElementById('emailError').innerText = 'Invalid email address';
+			return;
+		}
+
+		// Display loader
+		document.getElementById('loader').style.display = 'block';
+
+		// Get form data
+		var shareurl = document.getElementsByName('shareurl')[0].value;
+
+		// Create a FormData object to send data
+		var formData = new FormData();
+		formData.append('email', email);
+		formData.append('shareurl', shareurl);
+		formData.append('action', "shareviaemail");
+
+		// Create XMLHttpRequest object
+		var xhr = new XMLHttpRequest();
+
+		// Set up the request
+		xhr.open('POST', 'https://leadforest.net/grav/grav-admin/ajax-endpoint', true);
+
+		// Set up callback functions
+		xhr.onload = function() {
+			// Hide loader
+			document.getElementById('loader').style.display = 'none';
+
+			if (xhr.status === 200) {
+				console.log(xhr.responseText);
+				console.log('Success:', xhr.responseText);
+				// Handle success response
+				var response = JSON.parse(xhr.responseText);
+				if (response.success) {
+					document.getElementById('response').innerText = response.message;
+					document.getElementById('response').className = 'success';
+				} else {
+					document.getElementById('response').innerText = response.message;
+					document.getElementById('response').className = 'error';
+				}
+
+			} else {
+				console.log('Error:', xhr.status, xhr.statusText);
+				// Handle error response
+			}
+			
+		};
+
+		xhr.onerror = function() {
+			// Hide loader
+			document.getElementById('loader').style.display = 'none';
+
+			console.log('Request failed');
+			// Handle request failure
+		};
+
+		// Send the request with form data
+		xhr.send(formData);
+	}
+
+	function validateEmail(email) {
+		// Simple email validation regex
+		var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+		return emailRegex.test(email);
+	}
+</script>

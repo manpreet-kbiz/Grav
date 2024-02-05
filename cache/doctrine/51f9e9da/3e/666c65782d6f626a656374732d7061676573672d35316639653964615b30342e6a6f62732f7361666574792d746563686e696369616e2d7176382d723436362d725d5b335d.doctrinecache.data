@@ -1,0 +1,41 @@
+1706682345
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:33:"jobs/safety-technician-qv8-r466-r";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:17:"Safety Technician";s:4:"date";s:27:"2023-11-13T14:02:33.464656Z";s:8:"modified";s:27:"2023-11-15T14:35:23.876942Z";s:5:"jobid";i:1437861;s:8:"currency";N;s:7:"address";s:43:"3883 East Faries Parkway, Decatur, IL 62526";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/QV8R466R";s:4:"hash";s:8:"QV8R466R";s:12:"organization";i:271590;s:10:"salary_min";s:0:"";s:10:"salary_max";s:0:"";s:7:"avg_sal";s:0:"";s:12:"is_published";b:0;s:9:"is_remote";N;s:10:"created_at";s:27:"2023-11-13T14:02:33.464656Z";s:10:"updated_at";s:27:"2023-11-15T14:35:23.876942Z";s:5:"owner";i:78004;s:16:"contract_details";s:9:"full_time";s:9:"headcount";i:1;s:12:"compensation";s:10:"Negotiable";s:8:"hired_at";i:0;s:12:"submitted_at";i:1;s:12:"interview_at";i:0;s:13:"custom_fields";a:6:{s:5:"jobid";s:0:"";s:9:"archetype";s:14:"Administrative";s:12:"managernotes";s:185:"<p>Bilingual Preferred&nbsp;&nbsp;</p>
+<p>Job Focus - Monthly trainings, rolling out new trainings, track monthly trainings, present in person trainings, track and drive improvement</p>";s:14:"engagementtype";a:1:{i:0;s:16:"Contract-to-Hire";}s:15:"payrateguidance";s:20:"<p>$26/Hr</p><p></p>";s:20:"clientsubmissiontype";a:1:{i:0;s:5:"Email";}}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:14:"Administrative";}s:3:"tag";a:1:{i:0;s:17:"Food and Beverage";}}}s:11:"frontmatter";s:1093:"title: 'Safety Technician'
+date: '2023-11-13T14:02:33.464656Z'
+modified: '2023-11-15T14:35:23.876942Z'
+jobid: 1437861
+currency: null
+address: '3883 East Faries Parkway, Decatur, IL 62526'
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/QV8R466R'
+hash: QV8R466R
+organization: 271590
+salary_min: ''
+salary_max: ''
+avg_sal: ''
+is_published: false
+is_remote: null
+created_at: '2023-11-13T14:02:33.464656Z'
+updated_at: '2023-11-15T14:35:23.876942Z'
+owner: 78004
+contract_details: full_time
+headcount: 1
+compensation: Negotiable
+hired_at: 0
+submitted_at: 1
+interview_at: 0
+custom_fields:
+    jobid: ''
+    archetype: Administrative
+    managernotes: "<p>Bilingual Preferred&nbsp;&nbsp;</p>\n<p>Job Focus - Monthly trainings, rolling out new trainings, track monthly trainings, present in person trainings, track and drive improvement</p>"
+    engagementtype:
+        - Contract-to-Hire
+    payrateguidance: '<p>$26/Hr</p><p></p>'
+    clientsubmissiontype:
+        - Email
+taxonomy:
+    category:
+        - jobs
+        - Administrative
+    tag:
+        - 'Food and Beverage'";s:8:"markdown";s:1701:"<p>The Safety Technician is responsible for compliance data tracking for training, KPIs and engagement logs and spreadsheets, event entry, and reports. The Safety Technician will provide administrative support to Departments with filing, scanning, records retention, PolicyTech, and entering daily plant production. Job Responsibilities: Good communication skills, conveying information both professionally and concisely. Conduct and maintain records retention and data entry for audits and inspections and other similar department document requirements. Completion of incident investigations, presentations and training. PolicyTech document management. Review, scan and file department compliance paperwork. Ensure accurate Facility safety metrics and investigate accordingly. Ability to work effectively in a team environment with all levels of employees. Follows all Safety, Environmental, and Quality related policies and helps to promote a positive and ethical work environment. Job Requirements: 10-KeyProficiency in Microsoft Windows (Word, Excel, MS Outlook, etc.) Accuracy and attention to detail required. Ability to analyze documents, data and programs and provide continuous improvement. Multi-tasking, great organizational skills, and work independently. Promotes the ADM Way and Core Values Physical Requirements: Office and plant environment; ability to access offices within the plant. Climbing stairs. Filing and bending. The Safety Technician will be required to engage with the departments in the plant setting and have open communication/feedback with employees at all levels. Relationship building throughout the departments is needed and safety expectations openly discussed.</p>";}s:7:"storage";a:6:{s:3:"key";s:33:"jobs/safety-technician-qv8-r466-r";s:11:"storage_key";s:36:"04.jobs/safety-technician-qv8-r466-r";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165883;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165883;}}s:8:"checksum";s:32:"c0e6917d8819878e70b3e161cafaaa4a";}}

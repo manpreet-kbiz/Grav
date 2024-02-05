@@ -1,0 +1,24 @@
+1)Add api_blog And Chat_gpt Both Plugin in 'YourProjectPath\user\plugins'.
+
+2)Create 'import jobs' And 'jobs' page.
+
+3)'Jobs' page assigin 'Jobslisting' Template. 
+
+4)Check page folder like this.
+
+==> https://prnt.sc/VH5_fRZ4FExX
+5)check in 04.jobs->jobslisting.md file code like below.
+---
+title: jobs
+content:
+    items:
+        - '@self.children'
+    limit: 12
+    order:
+        by: date
+        dir: desc
+    pagination: true
+    url_taxonomy_filters: true
+---
+
+6) 

@@ -1,0 +1,156 @@
+
+{% set tagparam = uri.param('tag') %}
+{% set categoryparam = uri.param('category') %}
+
+<div class="row filterdropdown">
+    <form action="">
+        <button type="submit" class="btn btn-primary search-submit-btn-sidefiltr">Search</button>
+        <h3 class="sidebar-select-option">Select industry </h3>
+	
+		<div class="opt-val">
+			{% for industry in all_tags %}
+				{% if industry %}
+					<input type="checkbox" id="industry_{{ forloop.counter }}" name="industry" value="{{ industry }}" class="common-class industry-checkbox">
+					<label for="industry_{{ forloop.counter }}"> {{ industry }}</label><br>
+				{% endif %}
+			{% endfor %}
+        </div>
+
+        <h3 class="sidebar-select-option">Select Archtype </h3>
+		
+		<div class="opt-val">
+			<!-- Container to display selected archetype -->
+			<div id="selectedArchetype"></div>
+		</div>	
+		<input type="hidden" value="" id="selectedarchtype" name="selectedarchtype">
+		
+		<!-- Enter Location -->
+		 <h3 class="sidebar-select-option">Enter Location </h3>
+		 <div class="opt-val">
+			<input type="input" id="Location" name="location" value="{{ industry }}" placeholder="Enter City">
+			<label for="{{ industry }}"> {{ industry }}</label><br>
+			 </div>	
+		<!-- PayRange  -->
+		 <h3 class="sidebar-select-option"> PayRange  </h3>
+			<div class="opt-val">
+			 <input type="checkbox" id="industry" name="$50,000-$100,000" value="$50,000-$100,000">
+			 <label for=""> $50,000-$100,000</label><br>
+			 
+			  <input type="checkbox" id="industry" name="$100,000-$150,000" value="$100,000-$150,000">
+			 <label for=""> $100,000-$150,000</label><br>
+			 
+			  <input type="checkbox" id="industry" name="$150,000-$200,000" value="$150,000-$200,000">
+			 <label for="}"> $150,000-$200,000</label><br>
+			 
+			  <input type="checkbox" id="industry" name="$200,000+" value="$200,000+">
+			 <label for=""> $200,000+</label><br>
+			</div>		 
+        
+		<!--Job Age  -->
+		 <h3 class="sidebar-select-option">Job Age </h3>
+		 <div class="opt-val">
+            <input type="checkbox" id="industry" name="This week" value="This week">
+            <label for="This week"> This week</label><br>
+			
+			 <input type="checkbox" id="industry" name="This month," value="This month,">
+            <label for="This month,"> This month,</label><br>
+			
+			 <input type="checkbox" id="industry" name=" This Quarter" value=" This Quarter">
+            <label for=" This Quarter">  This Quarter</label><br>
+       	</div>	
+    </form>
+</div>
+
+<script>
+
+   
+	const indAndTags = {{ ind_and_tags|json_encode|raw }};
+	document.addEventListener('DOMContentLoaded', function () {
+		var selectedArchetypeContainer = document.getElementById('selectedArchetype');
+		var checkboxes = document.querySelectorAll('.industry-checkbox');
+
+		// Add event listener to each checkbox
+		checkboxes.forEach(function(checkbox) {
+			checkbox.addEventListener('change', function() {
+				//selectedArchetypeContainer.innerHtml='';
+				selectedArchetypeContainer.innerHTML = "";
+				// Get all checked checkboxes
+				var checkedCheckboxes = document.querySelectorAll('.industry-checkbox:checked');
+				// Iterate through checked checkboxes
+				checkedCheckboxes.forEach(function(checkedCheckbox) {
+					console.log('Checked Checkbox: ', checkedCheckbox.value);
+					var selectedIndustry = checkedCheckbox.value;
+					  if (selectedIndustry && typeof indAndTags[selectedIndustry] === 'object') {
+						for (const jobTitle in indAndTags[selectedIndustry]) {
+							if (indAndTags[selectedIndustry].hasOwnProperty(jobTitle)) {
+								var checkboxw = document.createElement('input');
+								checkboxw.type = 'checkbox';
+								checkboxw.name = 'categoryparam';
+								checkboxw.value = indAndTags[selectedIndustry][jobTitle];
+								checkboxw.className = 'catclass';
+
+								// Create label for the checkbox
+								var label = document.createElement('label');
+								label.htmlFor = indAndTags[selectedIndustry][jobTitle];
+								label.className = 'catlabel';
+								label.textContent = indAndTags[selectedIndustry][jobTitle];
+
+								// Create line break
+								var lineBreak = document.createElement('br');
+								
+								//code for the  Archtype change event  Start
+								
+								/*var archtypeCheckboxes = document.querySelectorAll('.catclass');
+								archtypeCheckboxes.forEach(function(arcchecked) {
+									console.log(arcchecked);
+								}); */
+								checkboxw.addEventListener('change', function() {
+									var selectedValues = [];
+									var selectedArchetypeCheckboxes = document.querySelectorAll('.catclass:checked');
+									selectedArchetypeCheckboxes.forEach(function(selectedCheckbox) {
+										selectedValues.push(selectedCheckbox.value);
+									});
+									console.log('Selected Values:', selectedValues);
+									let archvalues=document.getElementById('selectedarchtype').value=selectedValues;
+                                    const baseUrl = "{{ base_url }}";
+									const tag = selectedIndustry;
+									const category =selectedValues;
+									const newUrl = `${baseUrl}/jobs/tag{{ config.system.param_sep }}${tag}/category{{ config.system.param_sep }}${category}`;
+									console.log(newUrl)
+									if(category){
+										setTimeout(function () {
+										// Visit the new URL
+										window.location.href = newUrl;
+										}, 500); // Adjust the timeout duration as needed
+							        }
+								});
+								//code for the  Archtype change event  end
+
+								selectedArchetypeContainer.appendChild(checkboxw);
+								selectedArchetypeContainer.appendChild(label);
+								selectedArchetypeContainer.appendChild(lineBreak);
+										
+										
+								
+							}
+						}
+					}
+				});
+			});
+		});
+		
+		//Archtype check event
+		
+		
+		
+	});
+	
+	
+
+</script>
+
+	
+
+
+
+

@@ -1,0 +1,45 @@
+1706682359
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:35:"jobs/sr-software-engineer-l77-xvvr3";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:21:"Sr. Software Engineer";s:4:"date";s:27:"2024-01-04T19:58:13.125259Z";s:8:"modified";s:27:"2024-01-04T21:18:05.561695Z";s:5:"jobid";i:1521357;s:8:"currency";s:3:"USD";s:7:"address";s:0:"";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/L77XVVR3";s:4:"hash";s:8:"L77XVVR3";s:12:"organization";i:117073;s:10:"salary_min";s:0:"";s:10:"salary_max";s:0:"";s:7:"avg_sal";s:0:"";s:12:"is_published";b:1;s:9:"is_remote";N;s:10:"created_at";s:27:"2024-01-04T19:58:13.125259Z";s:10:"updated_at";s:27:"2024-01-04T21:18:05.561695Z";s:5:"owner";i:24730;s:16:"contract_details";s:9:"temporary";s:9:"headcount";i:1;s:12:"compensation";s:10:"Negotiable";s:8:"hired_at";i:0;s:12:"submitted_at";i:93;s:12:"interview_at";i:8;s:13:"custom_fields";a:6:{s:9:"archetype";s:17:"Software Engineer";s:12:"managernotes";s:397:"<p>Position is onsite in Erlanger, KY</p>
+<p>﻿Note that once contractors convert to full time DAV employees, they are eligible for DAV’s telework policy that allows them to work from home up to 1 day per week with approval from management.<br><br>When submitting candidates, please include their availability, bill rate and expected salary conversion (not a range).</p><p></p><p>US Citizen</p>";s:14:"engagementtype";a:1:{i:0;s:16:"Contract-to-Hire";}s:15:"payrateguidance";s:80:"<p>Shoot for 50/hr but lets discuss.  They will not budge on bill range yet.</p>";s:15:"submissionnotes";s:98:"<p>$85-100/hr depending on skills and experience. Conversion salary target is $85,000-100,000.</p>";s:20:"clientsubmissiontype";a:1:{i:0;s:5:"Email";}}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:17:"Software Engineer";}s:3:"tag";a:1:{i:0;s:22:"Information Technology";}}}s:11:"frontmatter";s:1448:"title: 'Sr. Software Engineer'
+date: '2024-01-04T19:58:13.125259Z'
+modified: '2024-01-04T21:18:05.561695Z'
+jobid: 1521357
+currency: USD
+address: ''
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/L77XVVR3'
+hash: L77XVVR3
+organization: 117073
+salary_min: ''
+salary_max: ''
+avg_sal: ''
+is_published: true
+is_remote: null
+created_at: '2024-01-04T19:58:13.125259Z'
+updated_at: '2024-01-04T21:18:05.561695Z'
+owner: 24730
+contract_details: temporary
+headcount: 1
+compensation: Negotiable
+hired_at: 0
+submitted_at: 93
+interview_at: 8
+custom_fields:
+    archetype: 'Software Engineer'
+    managernotes: "<p>Position is onsite in Erlanger, KY</p>\n<p>﻿Note that once contractors convert to full time DAV employees, they are eligible for DAV’s telework policy that allows them to work from home up to 1 day per week with approval from management.<br><br>When submitting candidates, please include their availability, bill rate and expected salary conversion (not a range).</p><p></p><p>US Citizen</p>"
+    engagementtype:
+        - Contract-to-Hire
+    payrateguidance: '<p>Shoot for 50/hr but lets discuss.  They will not budge on bill range yet.</p>'
+    submissionnotes: '<p>$85-100/hr depending on skills and experience. Conversion salary target is $85,000-100,000.</p>'
+    clientsubmissiontype:
+        - Email
+taxonomy:
+    category:
+        - jobs
+        - 'Software Engineer'
+    tag:
+        - 'Information Technology'";s:8:"markdown";s:1313:"<p>Gentis Solutions is seeking a Sr. Software Engineer to join our team. This contract-to-hire position is with a century-old, not-for-profit interested in full-time consultants. The ideal candidates will have the required skills listed below and will be eligible and open to be hired by an organization that served over a million people last year at the end of the project's duration. This position will work alongside an existing team, and leverage enterprise-level technologies and processes.<br></p>
+<p><strong>Requirements</strong></p>
+<ul><li>5-7 years of application development</li><li>5 or more years using Microsoft development tools</li><li>5 or more years of experience working with relational database systems</li></ul><p><strong>Skills Needed﻿</strong></p><ul><li class="">C#, NET 4.5.1+, JavaScript, MVC 5, Entity Framework 6, LINQ, jQuery, HTML5, Responsive Design, Twitter Bootstrap, XML</li></ul><p><strong>Technologies Needed</strong></p><ul><li>Team Foundation Server/Azure DevOps Server</li><li>Visual Studio 2019+</li><li>Microsoft SQL Server Management Tools</li></ul>
+<p><strong style="font-family: inherit; font-size: 0.875rem;">Typical Duties</strong><br></p>
+<ul><li>Work independently and with fellow team members</li><li>﻿Web-based application development and deployment</li></ul>";}s:7:"storage";a:6:{s:3:"key";s:35:"jobs/sr-software-engineer-l77-xvvr3";s:11:"storage_key";s:38:"04.jobs/sr-software-engineer-l77-xvvr3";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165899;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165899;}}s:8:"checksum";s:32:"e8535b4a176ec859bdf9a35d6e86fabf";}}

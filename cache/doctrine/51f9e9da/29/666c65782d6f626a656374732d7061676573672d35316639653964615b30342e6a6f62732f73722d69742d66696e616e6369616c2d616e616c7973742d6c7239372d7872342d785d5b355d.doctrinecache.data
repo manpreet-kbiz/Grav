@@ -1,0 +1,34 @@
+1706682359
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:39:"jobs/sr-it-financial-analyst-lr97-xr4-x";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:24:"Sr. IT Financial Analyst";s:4:"date";s:27:"2023-08-24T19:41:30.138654Z";s:8:"modified";s:27:"2023-08-24T19:44:17.389035Z";s:5:"jobid";i:1320860;s:8:"currency";N;s:7:"address";s:0:"";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/LR97XR4X";s:4:"hash";s:8:"LR97XR4X";s:12:"organization";i:1835284;s:10:"salary_min";s:0:"";s:10:"salary_max";s:0:"";s:7:"avg_sal";s:0:"";s:12:"is_published";b:0;s:9:"is_remote";N;s:10:"created_at";s:27:"2023-08-24T19:41:30.138654Z";s:10:"updated_at";s:27:"2023-08-24T19:44:17.389035Z";s:5:"owner";i:22120;s:16:"contract_details";s:9:"full_time";s:9:"headcount";i:2;s:12:"compensation";s:10:"Negotiable";s:8:"hired_at";i:0;s:12:"submitted_at";i:0;s:12:"interview_at";i:0;s:13:"custom_fields";a:2:{s:5:"jobid";s:17:"NiSource Pipeline";s:12:"managernotes";s:537:"<p>2 positions:</p><ul><li>1 in Merrillville, IN</li><li>1 in Columbus, OH</li></ul><p>﻿The Sr. IT Financial Analyst is a position within the Service Management department and is accountable for invoice validation and associated activities for all managed services providers.</p><p>In this role you will work closely with the Service Providers, Senior Leadership, IT departments, and Finance teams to ensure that services are properly invoiced and credits received per the outsourced contracts and pertinent schedules and exhibits.</p>";}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:0:"";}s:3:"tag";a:1:{i:0;s:0:"";}}}s:11:"frontmatter";s:1234:"title: 'Sr. IT Financial Analyst'
+date: '2023-08-24T19:41:30.138654Z'
+modified: '2023-08-24T19:44:17.389035Z'
+jobid: 1320860
+currency: null
+address: ''
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/LR97XR4X'
+hash: LR97XR4X
+organization: 1835284
+salary_min: ''
+salary_max: ''
+avg_sal: ''
+is_published: false
+is_remote: null
+created_at: '2023-08-24T19:41:30.138654Z'
+updated_at: '2023-08-24T19:44:17.389035Z'
+owner: 22120
+contract_details: full_time
+headcount: 2
+compensation: Negotiable
+hired_at: 0
+submitted_at: 0
+interview_at: 0
+custom_fields:
+    jobid: 'NiSource Pipeline'
+    managernotes: '<p>2 positions:</p><ul><li>1 in Merrillville, IN</li><li>1 in Columbus, OH</li></ul><p>﻿The Sr. IT Financial Analyst is a position within the Service Management department and is accountable for invoice validation and associated activities for all managed services providers.</p><p>In this role you will work closely with the Service Providers, Senior Leadership, IT departments, and Finance teams to ensure that services are properly invoiced and credits received per the outsourced contracts and pertinent schedules and exhibits.</p>'
+taxonomy:
+    category:
+        - jobs
+        - ''
+    tag:
+        - ''";s:8:"markdown";s:510:"<p>Gentis Solutions is looking for a JOB TITLE for a CONTRACT/CONTRACT-TO-HIRE/DIRECT HIRE position. This job is with a company that knows it's more than just a business that makes and sells energy. They also care about the community and the people they work with including employees, partners, customers, and the areas they serve. If you want to work for a company that's dedicated to making a positive and welcoming work environment, where their success comes from a team that cares, you can apply below.</p>";}s:7:"storage";a:6:{s:3:"key";s:39:"jobs/sr-it-financial-analyst-lr97-xr4-x";s:11:"storage_key";s:42:"04.jobs/sr-it-financial-analyst-lr97-xr4-x";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165897;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165897;}}s:8:"checksum";s:32:"b45888135179d6721ef7182d07dd3bdc";}}

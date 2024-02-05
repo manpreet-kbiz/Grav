@@ -1,0 +1,11 @@
+state: enabled
+email: asfak.kbizsoft@gmail.com
+fullname: kbizsoft
+title: Administrator
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$sLXJYbQ9jI/KfrJmyRJh3e7eQfnq0nNFaYFdo083ChgOl2GLiAmTy

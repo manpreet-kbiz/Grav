@@ -1,0 +1,46 @@
+1706166565
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:50:"jobs/data-center-dr-analyst-coordinator-qv7-y49-y6";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:34:"Data Center DR Analyst/Coordinator";s:4:"date";s:27:"2024-01-23T15:04:55.484534Z";s:8:"modified";s:27:"2024-01-23T20:02:34.321911Z";s:5:"jobid";i:1563301;s:8:"currency";s:3:"USD";s:7:"address";s:0:"";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/QV7Y49Y6";s:4:"hash";s:8:"QV7Y49Y6";s:12:"organization";i:1835284;s:10:"salary_min";s:0:"";s:10:"salary_max";s:0:"";s:7:"avg_sal";s:0:"";s:12:"is_published";b:1;s:9:"is_remote";N;s:10:"created_at";s:27:"2024-01-23T15:04:55.484534Z";s:10:"updated_at";s:27:"2024-01-23T20:02:34.321911Z";s:5:"owner";i:22120;s:16:"contract_details";s:9:"temporary";s:9:"headcount";i:1;s:12:"compensation";s:10:"Negotiable";s:8:"hired_at";i:0;s:12:"submitted_at";i:12;s:12:"interview_at";i:1;s:13:"custom_fields";a:5:{s:5:"jobid";s:4:"2284";s:12:"managernotes";s:446:"<p><strong>Additional note from the hiring manager:</strong> I am looking for someone that is technical sharp and eager to learn with some IT experience. I am willing to train the right person if they lack some of the skills.  I must have a hard worker that is willing to do this job and not really looking for some other kind of work and using this as a means to get into NiSource.</p>
+<p>Hybrid - Columbus OH onsite Tuesdays and Wednesdays.</p>";s:14:"engagementtype";a:1:{i:0;s:8:"Contract";}s:15:"submissionnotes";s:29:"<p>Max Bill Rate : $69.09</p>";s:20:"clientsubmissiontype";a:1:{i:0;s:19:"Client Portal (VMS)";}}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:0:"";}s:3:"tag";a:1:{i:0;s:22:"Information Technology";}}}s:11:"frontmatter";s:1312:"title: 'Data Center DR Analyst/Coordinator'
+date: '2024-01-23T15:04:55.484534Z'
+modified: '2024-01-23T20:02:34.321911Z'
+jobid: 1563301
+currency: USD
+address: ''
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/QV7Y49Y6'
+hash: QV7Y49Y6
+organization: 1835284
+salary_min: ''
+salary_max: ''
+avg_sal: ''
+is_published: true
+is_remote: null
+created_at: '2024-01-23T15:04:55.484534Z'
+updated_at: '2024-01-23T20:02:34.321911Z'
+owner: 22120
+contract_details: temporary
+headcount: 1
+compensation: Negotiable
+hired_at: 0
+submitted_at: 12
+interview_at: 1
+custom_fields:
+    jobid: '2284'
+    managernotes: "<p><strong>Additional note from the hiring manager:</strong> I am looking for someone that is technical sharp and eager to learn with some IT experience. I am willing to train the right person if they lack some of the skills.  I must have a hard worker that is willing to do this job and not really looking for some other kind of work and using this as a means to get into NiSource.</p>\n<p>Hybrid - Columbus OH onsite Tuesdays and Wednesdays.</p>"
+    engagementtype:
+        - Contract
+    submissionnotes: '<p>Max Bill Rate : $69.09</p>'
+    clientsubmissiontype:
+        - 'Client Portal (VMS)'
+taxonomy:
+    category:
+        - jobs
+        - ''
+    tag:
+        - 'Information Technology'";s:8:"markdown";s:4487:"<p>Gentis Solutions is seeking a Data Center DR Analyst/Coordinator for a hybrid contract position (onsite Tuesdays and Wednesdays)&nbsp;with one of our clients whose mission is to deliver safe, reliable energy that drives value to their customers. The ideal candidates will have the required skills listed below and will be eligible and open to being hired by our client at the end of the project's duration. If you are qualified, make sure you apply.</p>
+<p><strong>Requirements</strong></p>
+<ul><li>﻿Bachelor's Degree</li><li>4 to 8 years of work experience with Data Center Infrastructure Disaster Discovery (DR) environments and/or Business Continuity documentation and exercises</li><li>Experience working in a large enterprise Data Center Operations team</li><li>Strong coordinating, tracking, and technical documentation skills</li><li>Enjoy working with IT Teams on DR documentation and plan maintenance - in this role the person will lead the coordination and tracking of hundreds of technical plans using DR software</li><li>Working with SR DR Analyst to support DR Exercises on/off-site -&nbsp;5 to 10% travel as needed to assist with DR Exercises</li><li> Longer hours and weekends are required during DR Exercises</li><li>Strong Microsoft Office Skills, Outlook, Excel, Teams, Power Point, Visio, SharePoint, etc.</li><li>Comfortable giving presentations to other teams on DR Standards</li><li>Familiar with Data Center Technologies like VMWare, AIX, Databases (Oracle and SQL), Snapshots, Replication, SRM, Commvault, Zerto, ActiveDR, etc.</li><li>Excellent written and verbal communication skills, the job requires creating documents for each DR&nbsp;Exercise including Scope and Objectives documents and Post Exercise Results Reports</li><li>Must have a teaching mindset, excellent presentation and people skills, strong organizational skills to oversee hundreds of DR plans that are maintained and tested by Plan Owners annually</li><li>Familiar with Business or Application Impact Analysis Projects</li><li>Must have experience working with Disaster Recovery (DR) or Business Continuity (BC) Plan Coordination, creating Exercise status and Issues reports for management, enjoys collaborating with Technical Teams, assist with creating, maintaining, and writing Technical Recovery Plans</li><li>Works independently on assigned projects, meets deadlines, and has an analytical mind set</li><li>Experienced in planning, and leading Disaster Recovery exercises and failover testing across multiple data centers, third-party hot sites, and call centers</li><li>Experienced working with a CMDB such as Service Now or another platform</li><li>Must have experience working with Disaster Recovery (DR) or Business Continuity (BC) Plan coordination and enjoy collaborating with Technical Teams to assist them with creating, maintaining, and writing Technical Recovery Plans</li><li>Enjoys collaborating with people across different teams and has a teaching mindset</li><li>Experienced in planning and leading DR exercises and/or failover testing throughout the year</li></ul>
+<p><strong>Desirable Skills</strong></p>
+<ul><li>CBCP, MCBI, or ABCP certification is a plus</li><li>﻿Experience working with DR/BC Software a plus</li><li>﻿Service Now advanced experience a plus﻿</li></ul>
+<p><strong>Typical Duties</strong></p>
+<ul><li>﻿DR Coordinator for Plans, Exercises, medium-sized DR project coordination, working with a cross-section of IT Operational Teams under the direction of the DR Lead and/or Manager</li><li>Resolves issues related to plans and exercises, track issues during exercises and report issues according to standards</li><li>Work closely with the company's&nbsp;project managers, on projects from time to time to ensure the company's DR Standards are used</li><li>Gather data on day-to-day Applications, Servers, OS, Databases, etc. to assist with the planning of a DR Exercise</li><li>Maintain a solid understanding of Service Providers operational and service delivery responsibilities</li><li>Review Application Recovery Plans and/or Run Books for completeness in preparation of Disaster Recovery exercises and failover activities</li><li>Participate in the planning and execution of and lead Disaster Recovery exercises and failover activities</li><li>Report to the Disaster Recovery Services Manager under Infrastructure Management</li><li>Other related DR/BC Duties and/or project work as assigned</li><li>No on-call duties currently</li></ul>";}s:7:"storage";a:6:{s:3:"key";s:50:"jobs/data-center-dr-analyst-coordinator-qv7-y49-y6";s:11:"storage_key";s:53:"04.jobs/data-center-dr-analyst-coordinator-qv7-y49-y6";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165849;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165849;}}s:8:"checksum";s:32:"2645b0f9869f93ff409073d288349f19";}}

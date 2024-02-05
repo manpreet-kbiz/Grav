@@ -1,0 +1,104 @@
+<style>  
+.allcollections {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.allcollections a {
+    padding: 12px 22px;
+    margin: 0;
+    border-radius: 35px;
+    background: #4c6895;
+    line-height: 1.2;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    font-family: 'MagistralC', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+a.cat.hidecat {
+    display: none;
+}
+a.viewmorebtn {
+    background: green;
+}
+a.cat:hover {
+    background: #1b3b6c;
+}
+
+a.active {
+    background: #1b3b6c;
+}
+
+</style>
+
+{% set tagparam = uri.param('tag') %}
+
+{% set counter = 0 %}
+{% set maxVisibleCategories = 4 %}
+{% for tag in all_tags %}
+	{% if tag %}
+	    {% if tag is same as(tagparam) %}
+			{% set activeclass = 'active' %}
+		{% else %}
+			{% set activeclass = '' %}
+		{% endif %}
+		{% if counter > maxVisibleCategories %}
+			<a class="cat hidecat {{ activeclass }}" href="{{ base_url }}/jobs/tag{{ config.system.param_sep }}{{ tag }}">{{ tag }}</a>
+		{% else %}
+			<a class="cat {{ activeclass }}" href="{{ base_url }}/jobs/tag{{ config.system.param_sep }}{{ tag }}">{{ tag }}</a>
+		{% endif %}
+		
+		{% set counter = counter + 1 %}
+	{% endif %}
+{% endfor %}
+
+{% if counter > 5 %}
+	<div class="showmore">
+		<a class="viewmorebtn" href="javascript:void(0);" onclick="toggleCategories()">View More</a>
+	</div>
+{% endif %}
+
+<script>
+    var isCategoriesVisible = localStorage.getItem('categoriesVisible');
+	var viewMoreBtn = document.querySelector('.viewmorebtn');
+	//alert(isCategoriesVisible)
+	if (isCategoriesVisible === 'true') {
+		document.querySelectorAll('.hidecat').forEach(function(category) {
+            category.style.display =  'block';
+        });
+		viewMoreBtn.innerHTML = 'Show Less';
+	}
+	
+    function toggleCategories() {
+        var hiddenCategories = document.querySelectorAll('.hidecat');
+		var viewMoreBtn = document.querySelector('.viewmorebtn');
+        document.querySelectorAll('.hidecat').forEach(function(category) {
+            category.style.display = (category.style.display === 'none' || category.style.display === '') ? 'block' : 'none';
+			
+        });
+		 viewMoreBtn.innerHTML = (viewMoreBtn.innerHTML === 'View More') ? 'Show Less' : 'View More';
+		 if(viewMoreBtn.innerHTML === 'Show Less'){
+			localStorage.setItem("categoriesVisible", 'true');
+		 }else{
+			localStorage.setItem("categoriesVisible", 'false');
+		 }
+    }
+	
+	
+
+	
+	
+</script>
+
+
+
+

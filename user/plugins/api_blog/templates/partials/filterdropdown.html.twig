@@ -1,0 +1,222 @@
+<!-- <style>
+.spinner {
+    text-align: center;
+    position: fixed;
+    color: #1a3b6b;
+    background-color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    width: 300px;
+    height: 60px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px, 1px, 4px, 0.5px;
+    display:none;
+}
+.filterdropdown {
+    margin: 0 0 30px 0;
+}
+select {
+    background: #8BA8B7;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-color: #ffffff;
+    border-radius: 0;
+    height: 130px;
+    line-height: 1.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 230px;
+    border-radius: 5px;
+    width: 100%;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M8 13.1l-8-8 2.1-2.2 5.9 5.9 5.9-5.9 2.1 2.2' fill='white' /%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 50%;
+    background-size: 40px;
+    font-size: 35px;
+    text-align: left;
+    padding: 16px 40px;
+}
+h2.filtertext {
+    text-align: center;
+    padding: 20px 0px 30px 0px;
+}
+a#searchind {
+    color: #fff;
+    background: #1a3b6b;
+    padding: 9px 40px 8px 40px;
+    border-radius: 18px;
+}
+
+a#reset {
+    color: #fff;
+    background: #1a3b6b;
+    padding: 9px 40px 8px 40px;
+    border-radius: 18px;
+}
+
+.buttonsrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 30px;
+}
+
+
+</style> --> 
+   {% set tagparam = uri.param('tag') %}
+   {% set categoryparam = uri.param('category') %}
+	<div class="row filterdropdown">
+	    <h2 class="filtertext">Filter by Industry  and  Category</h2>
+		<div id="loading-spinner" class="spinner col-md-12">
+			Loading...
+		</div>
+		<div class="col-lg-1 d-none d-lg-block"></div>
+		
+		
+		
+		<div class="col-md-5">
+			<select id="industry" name="industry">
+				<option value="">Select Industry</option>
+				{% for industry in all_tags %}
+					{% if industry %}
+						<option value="{{ industry }}"   {% if industry is same as(tagparam) %}selected{% endif %}  >{{ industry }}</option>
+					{% endif %}
+				{% endfor %}
+			</select>
+		</div>
+
+		<div class="col-md-5">
+			<select id="archtypen" name="archtypen">
+				
+				{% if categoryparam %}
+					<option value="{{ categoryparam }}">{{categoryparam }}</option> 
+				{% else %}
+					<option value="">Select Archtype</option>
+				{% endif %}
+				<!-- Options will be dynamically populated using JavaScript -->
+			</select>
+		</div>
+        
+		
+	</div>
+	
+	<div class="buttonsrow">
+        <a id="searchind" href="javascript:void(0);">Search</a>
+        
+        <a id="reset" href="/grav/grav-admin/jobs/">Reset</a>
+    </div>
+	
+
+
+
+
+<script>
+    
+    const indAndTags = {{ ind_and_tags|json_encode|raw }};
+    // Get references to the industry and archtypen dropdowns
+    const industryDropdown = document.getElementById('industry');
+    const archtypenDropdown = document.getElementById('archtypen');
+    const searchind = document.getElementById('searchind');
+    const reset = document.getElementById('reset');
+
+    // Event listener for when the industry dropdown changes
+    industryDropdown.addEventListener('change', function () {
+        archtypenDropdown.innerHTML = '<option value="">Select Category</option>';
+        const selectedIndustry = industryDropdown.value;
+		 // Check if selectedIndustry is a valid key in indAndTags and is an object
+        if (selectedIndustry && typeof indAndTags[selectedIndustry] === 'object') {
+
+            for (const jobTitle in indAndTags[selectedIndustry]) {
+                if (indAndTags[selectedIndustry].hasOwnProperty(jobTitle)) {
+                    const option = document.createElement('option');
+                    option.value = indAndTags[selectedIndustry][jobTitle];
+                    option.textContent = indAndTags[selectedIndustry][jobTitle];
+                    archtypenDropdown.appendChild(option);
+                }
+            }
+        }
+    });
+	
+	// Event listener for when the archtypen dropdown changes
+    archtypenDropdown.addEventListener('change', function () {
+        const selectedArchtype = archtypenDropdown.value;
+        const industryselval = industryDropdown.value;
+		const loadingSpinner = document.getElementById('loading-spinner');
+
+		
+		 // Show loading spinner
+        loadingSpinner.style.display = 'block';
+
+        // Generate the URL based on selected values
+        const baseUrl = "{{ base_url }}";
+        const tag = industryselval;
+        const category = selectedArchtype;
+		
+		
+        const newUrl = `${baseUrl}/jobs/tag{{ config.system.param_sep }}${tag}/category{{ config.system.param_sep }}${category}`;
+        if(category){
+			setTimeout(function () {
+				// Visit the new URL
+				window.location.href = newUrl;
+			}, 500); // Adjust the timeout duration as needed
+		}
+        
+    });
+	
+	//
+	// Add click event to the searchind button
+	searchind.addEventListener('click', function () {
+		//alert("tett")
+		// Handle the click event and redirect to the desired URL
+		const idv = document.getElementById('industry');
+		const atd = document.getElementById('archtypen');
+		const industryselval = idv.value;
+		const selectedArchtype = atd.value;
+		const baseUrl = "{{ base_url }}";
+		const tag = industryselval;
+		const category = selectedArchtype;
+        
+		
+		let url = '';
+
+		// Add condition to construct the URL when both tag and category are present
+		if (tag && category) {
+			url = `${baseUrl}/jobs/tag{{ config.system.param_sep }}${tag}/category{{ config.system.param_sep }}${category}`;
+		} else {
+			// Add conditions to construct the URL based on tag and category separately
+			if (tag) {
+				url = `${baseUrl}/jobs/tag{{ config.system.param_sep }}${tag}`;
+			}
+			if (category) {
+				url = url ? `${url}/category{{ config.system.param_sep }}${category}` : `${baseUrl}/jobs/category{{ config.system.param_sep }}${category}`;
+			}
+		}
+		window.location.href = url;
+		
+		<!-- const newUrl = `${baseUrl}/jobs/tag{{ config.system.param_sep }}${tag}/category{{ config.system.param_sep }}${category}`;
+		
+		//if (category) {
+			// Visit the new URL
+			
+		//}  -->
+	});
+	
+	
+	
+</script>

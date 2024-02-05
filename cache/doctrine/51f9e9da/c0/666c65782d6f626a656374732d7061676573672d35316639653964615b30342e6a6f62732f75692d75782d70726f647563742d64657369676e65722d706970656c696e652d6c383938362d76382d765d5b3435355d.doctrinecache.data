@@ -1,0 +1,37 @@
+1706868872
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:47:"jobs/ui-ux-product-designer-pipeline-l8986-v8-v";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:33:"UI/UX (Product Designer) Pipeline";s:4:"date";s:27:"2023-04-03T13:48:59.734249Z";s:8:"modified";s:27:"2023-04-29T10:58:01.290519Z";s:5:"jobid";i:1174858;s:8:"currency";N;s:7:"address";s:0:"";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/L8986V8V";s:4:"hash";s:8:"L8986V8V";s:12:"organization";i:137896;s:10:"salary_min";s:0:"";s:10:"salary_max";s:0:"";s:7:"avg_sal";s:0:"";s:12:"is_published";b:0;s:9:"is_remote";N;s:10:"created_at";s:27:"2023-04-03T13:48:59.734249Z";s:10:"updated_at";s:27:"2023-04-29T10:58:01.290519Z";s:5:"owner";i:22879;s:16:"contract_details";s:9:"full_time";s:9:"headcount";i:1;s:12:"compensation";s:10:"Negotiable";s:8:"hired_at";i:0;s:12:"submitted_at";i:1;s:12:"interview_at";i:0;s:13:"custom_fields";a:1:{s:9:"archetype";s:12:"UIX Designer";}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:12:"UIX Designer";}s:3:"tag";a:1:{i:0;s:8:"Staffing";}}}s:11:"frontmatter";s:701:"title: 'UI/UX (Product Designer) Pipeline'
+date: '2023-04-03T13:48:59.734249Z'
+modified: '2023-04-29T10:58:01.290519Z'
+jobid: 1174858
+currency: null
+address: ''
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/L8986V8V'
+hash: L8986V8V
+organization: 137896
+salary_min: ''
+salary_max: ''
+avg_sal: ''
+is_published: false
+is_remote: null
+created_at: '2023-04-03T13:48:59.734249Z'
+updated_at: '2023-04-29T10:58:01.290519Z'
+owner: 22879
+contract_details: full_time
+headcount: 1
+compensation: Negotiable
+hired_at: 0
+submitted_at: 1
+interview_at: 0
+custom_fields:
+    archetype: 'UIX Designer'
+taxonomy:
+    category:
+        - jobs
+        - 'UIX Designer'
+    tag:
+        - Staffing";s:8:"markdown";s:2751:"<p>Gentis Solutions is seeking a Senior Product Designer for a full-time, direct-hire position with one of our Fortune 50 clients. The ideal candidate will define the customer journey across multiple products.  This Role will support Supply Chain, Manufacturing, Accounting, and Finance segments inside the company.  A remote or Hybrid work environment is supported.<br></p>
+<h5>Requirements</h5>
+<ul><li>6+ years of experience in B2B or B2C environments, implementing loyalty, personalization/eCommerce strategies</li><li>Bachelor's Degree in Visual Design, Human-Computer Interaction, Industrial Design, or related field; or equivalent work experience</li><li>Mobile application experience is a must</li><li>Advanced skill with design tools, such as Sketch, Invision, Adobe CS, etc.</li><li>Strong understanding of analytics, target measurement, and online/offline channel engagement attribution models</li><li>Previous experience defining, developing, or documenting UX design</li><li>Highly analytical aptitude and proficiency in using data analysis</li><li>Exceptional communication, and presentation skills with demonstrated ability to lead and innovate across teams and organizations</li><li>Experience mentoring other user experience professionals</li><li>Demonstrated ability to influence and lead projects from concept to delivery and ongoing improvement</li><li>Portfolio demonstrating user experience activities, processes, and deliverables</li></ul>
+<h5>Typical Duties<br></h5>
+<ul><li>Lead product teams and partner with stakeholders to develop the customer experience strategy and vision</li><li>Define customer experiences and communicate to company officers and senior management</li><li>Advocate for users by leading or overseeing user research activities</li><li>Define and focus on user problems; map the customer experience across channels</li><li>Set standards for design processes, including user journeys, heuristic evaluations, wireframes, prototypes, and usability testing</li><li>Create high and low-fidelity prototypes, static or interactive, that are tested with users and shared with stakeholders</li><li>Measure, improve and enable continuous delivery to production</li><li>Set objectives and key results for product teams</li><li>Coach and mentor others; provide direction, feedback, and approval on others' work and coach associate UX and UX team members</li><li>Apply standards from design systems and/or brand guidelines, and contribute to design systems</li><li>Embrace an Agile environment and act as an advocate for customers, providing strategic leadership based on user-centered design, user research, customer analytics, and business goals</li><li>Travel to local campuses and attend company meetings</li></ul>";}s:7:"storage";a:6:{s:3:"key";s:47:"jobs/ui-ux-product-designer-pipeline-l8986-v8-v";s:11:"storage_key";s:50:"04.jobs/ui-ux-product-designer-pipeline-l8986-v8-v";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706790054;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706790054;}}s:8:"checksum";s:32:"102d4e11dec495110eb7cf74ae8882db";}}

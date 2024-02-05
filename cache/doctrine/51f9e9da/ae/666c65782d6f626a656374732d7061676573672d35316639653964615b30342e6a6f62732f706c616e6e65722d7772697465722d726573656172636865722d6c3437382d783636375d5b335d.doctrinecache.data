@@ -1,0 +1,44 @@
+1706682345
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:40:"jobs/planner-writer-researcher-l478-x667";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:25:"Planner/Writer/Researcher";s:4:"date";s:27:"2024-01-18T14:35:10.468958Z";s:8:"modified";s:27:"2024-01-18T14:43:27.139059Z";s:5:"jobid";i:1555830;s:8:"currency";s:3:"USD";s:7:"address";s:0:"";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/L478X667";s:4:"hash";s:8:"L478X667";s:12:"organization";i:301555;s:10:"salary_min";s:13:"$60,000.00/yr";s:10:"salary_max";s:13:"$60,000.00/yr";s:7:"avg_sal";s:9:"60,000.00";s:12:"is_published";b:1;s:9:"is_remote";N;s:10:"created_at";s:27:"2024-01-18T14:35:10.468958Z";s:10:"updated_at";s:27:"2024-01-18T14:43:27.139059Z";s:5:"owner";i:24730;s:16:"contract_details";s:9:"full_time";s:9:"headcount";i:1;s:12:"compensation";s:13:"$60,000.00/yr";s:8:"hired_at";i:0;s:12:"submitted_at";i:6;s:12:"interview_at";i:0;s:13:"custom_fields";a:5:{s:9:"archetype";s:16:"Research Analyst";s:14:"engagementtype";a:1:{i:0;s:11:"Direct Hire";}s:15:"payrateguidance";s:16:"<p>Pay: $60k</p>";s:17:"grossprofitamount";i:12000;s:20:"clientsubmissiontype";a:1:{i:0;s:5:"Email";}}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:16:"Research Analyst";}s:3:"tag";a:1:{i:0;s:11:"Engineering";}}}s:11:"frontmatter";s:895:"title: Planner/Writer/Researcher
+date: '2024-01-18T14:35:10.468958Z'
+modified: '2024-01-18T14:43:27.139059Z'
+jobid: 1555830
+currency: USD
+address: ''
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/L478X667'
+hash: L478X667
+organization: 301555
+salary_min: '$60,000.00/yr'
+salary_max: '$60,000.00/yr'
+avg_sal: '60,000.00'
+is_published: true
+is_remote: null
+created_at: '2024-01-18T14:35:10.468958Z'
+updated_at: '2024-01-18T14:43:27.139059Z'
+owner: 24730
+contract_details: full_time
+headcount: 1
+compensation: '$60,000.00/yr'
+hired_at: 0
+submitted_at: 6
+interview_at: 0
+custom_fields:
+    archetype: 'Research Analyst'
+    engagementtype:
+        - 'Direct Hire'
+    payrateguidance: '<p>Pay: $60k</p>'
+    grossprofitamount: 12000
+    clientsubmissiontype:
+        - Email
+taxonomy:
+    category:
+        - jobs
+        - 'Research Analyst'
+    tag:
+        - Engineering";s:8:"markdown";s:624:"<p>﻿Gentis Solutions is seeking a Planner/Writer/Researcher&nbsp;for a full-time position with our client. The ideal candidate will have ﻿exceptional writing skills and research skills. If you are qualified, make sure you apply.<br></p>
+<p><strong>Requirements</strong></p>
+<ul><li>AS/BS Degree</li><li>Exceptional writing skills and research skills</li><li>1+ years experience</li><li>Parks Planning experience a plus﻿</li></ul>
+<ul></ul>
+<p><strong>Typical Duties</strong><br></p>
+<ul><li>Research and Write for City and Municipality projects</li><li>Fun and exciting parks systems master planning projects</li></ul>";}s:7:"storage";a:6:{s:3:"key";s:40:"jobs/planner-writer-researcher-l478-x667";s:11:"storage_key";s:43:"04.jobs/planner-writer-researcher-l478-x667";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165874;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165874;}}s:8:"checksum";s:32:"5e68dcb612d55f3f36a06000023d7f36";}}

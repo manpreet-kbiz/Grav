@@ -1,0 +1,43 @@
+1706682359
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:32:"jobs/safety-technician-l3763-yxv";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:17:"Safety Technician";s:4:"date";s:27:"2024-01-23T16:16:28.269805Z";s:8:"modified";s:27:"2024-01-23T16:31:52.288400Z";s:5:"jobid";i:1563405;s:8:"currency";s:3:"USD";s:7:"address";s:7:"PetDine";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/L3763YXV";s:4:"hash";s:8:"L3763YXV";s:12:"organization";i:271590;s:10:"salary_min";s:9:"$26.00/hr";s:10:"salary_max";s:9:"$26.00/yr";s:7:"avg_sal";s:5:"26.00";s:12:"is_published";b:1;s:9:"is_remote";N;s:10:"created_at";s:27:"2024-01-23T16:16:28.269805Z";s:10:"updated_at";s:27:"2024-01-23T16:31:52.288400Z";s:5:"owner";i:22120;s:16:"contract_details";s:9:"temporary";s:9:"headcount";i:3;s:12:"compensation";s:9:"$26.00/yr";s:8:"hired_at";i:0;s:12:"submitted_at";i:1;s:12:"interview_at";i:0;s:13:"custom_fields";a:5:{s:9:"archetype";s:14:"Administrative";s:13:"hiringmanager";s:15:"Ashley Galloway";s:14:"engagementtype";a:1:{i:0;s:8:"Contract";}s:15:"payrateguidance";s:49:"<p>Pay rate: $26 (pay rate not the bill rate)</p>";s:20:"clientsubmissiontype";a:1:{i:0;s:19:"Client Portal (VMS)";}}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:14:"Administrative";}s:3:"tag";a:1:{i:0;s:17:"Health & Wellness";}}}s:11:"frontmatter";s:924:"title: 'Safety Technician'
+date: '2024-01-23T16:16:28.269805Z'
+modified: '2024-01-23T16:31:52.288400Z'
+jobid: 1563405
+currency: USD
+address: PetDine
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/L3763YXV'
+hash: L3763YXV
+organization: 271590
+salary_min: $26.00/hr
+salary_max: $26.00/yr
+avg_sal: '26.00'
+is_published: true
+is_remote: null
+created_at: '2024-01-23T16:16:28.269805Z'
+updated_at: '2024-01-23T16:31:52.288400Z'
+owner: 22120
+contract_details: temporary
+headcount: 3
+compensation: $26.00/yr
+hired_at: 0
+submitted_at: 1
+interview_at: 0
+custom_fields:
+    archetype: Administrative
+    hiringmanager: 'Ashley Galloway'
+    engagementtype:
+        - Contract
+    payrateguidance: '<p>Pay rate: $26 (pay rate not the bill rate)</p>'
+    clientsubmissiontype:
+        - 'Client Portal (VMS)'
+taxonomy:
+    category:
+        - jobs
+        - Administrative
+    tag:
+        - 'Health & Wellness'";s:8:"markdown";s:1932:"<p>Gentis Solutions is seeking a Safety Technician to join our team. This contract position is with one of our clients interested in full-time consultants. The ideal candidates will have the required skills listed below and will be eligible and open to being hired by our client at the end of the project's duration. If you are qualified, make sure you apply below.<br></p>
+<p>﻿<strong>Requirements</strong></p>
+<ul><li>Proficiency in 10-Key and Microsoft Windows applications (Word, Excel, MS Outlook, etc.)</li><li>Strong accuracy and attention to detail skills</li><li>Ability to analyze documents, data, and programs to provide continuous improvement</li><li>Excellent multitasking and organizational skills with the capability to work independently</li><li>Willingness to engage with departments in a plant setting and foster open communication/feedback with employees at all levels</li><li>Ability to build relationships throughout the departments and openly discuss safety expectations</li></ul>
+<p><strong style="font-family: inherit; font-size: 0.875rem;">﻿Typical Duties</strong><br></p>
+<ul><li>Track compliance data for training, KPIs, engagement logs, and spreadsheets</li><li>Enter and maintain records for audits, inspections, and other department document requirements</li><li>Provide administrative support to departments, including filing, scanning, and records retention</li><li>Manage PolicyTech document management tasks</li><li>Complete incident investigations and deliver presentations and training sessions</li><li>Review, scan, and file department compliance paperwork</li><li>Ensure accurate facility safety metrics and investigate any discrepancies</li><li>Work effectively in a team environment with all levels of employees</li><li>Follow all Safety, Environmental, and Quality related policies</li><li>Contribute to promoting a positive and ethical work environment within the organization</li></ul>";}s:7:"storage";a:6:{s:3:"key";s:32:"jobs/safety-technician-l3763-yxv";s:11:"storage_key";s:35:"04.jobs/safety-technician-l3763-yxv";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165884;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165884;}}s:8:"checksum";s:32:"bce55b7ca1d1bf1b6eef7b6c4b4e9a12";}}

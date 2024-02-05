@@ -1,0 +1,47 @@
+1706682359
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:34:"jobs/process-technician-qx7-y43-rr";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:18:"Process Technician";s:4:"date";s:27:"2024-01-23T14:28:01.690008Z";s:8:"modified";s:27:"2024-01-23T14:50:18.751140Z";s:5:"jobid";i:1563263;s:8:"currency";s:3:"USD";s:7:"address";s:44:"4666 E Faries Pkwy Decatur IL USA 62526-5630";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/QX7Y43RR";s:4:"hash";s:8:"QX7Y43RR";s:12:"organization";i:271590;s:10:"salary_min";s:9:"$18.00/hr";s:10:"salary_max";s:9:"$18.00/yr";s:7:"avg_sal";s:5:"18.00";s:12:"is_published";b:1;s:9:"is_remote";N;s:10:"created_at";s:27:"2024-01-23T14:28:01.690008Z";s:10:"updated_at";s:27:"2024-01-23T14:50:18.751140Z";s:5:"owner";i:22120;s:16:"contract_details";s:9:"temporary";s:9:"headcount";i:1;s:12:"compensation";s:9:"$18.00/yr";s:8:"hired_at";i:0;s:12:"submitted_at";i:0;s:12:"interview_at";i:0;s:13:"custom_fields";a:7:{s:5:"jobid";s:13:"ADMJP00012924";s:9:"archetype";s:14:"General Ledger";s:12:"managernotes";s:337:"<p>Process Technician with the Imaging Team. This is a temporary position.</p><p>Hours are 8:00-4:30 Monday through Friday.</p><p>The successful candidate will be engaged in a wide variety of activities focused on finance and controlling processes. The position will utilize many of ADM's systems, including IBM and Microsoft Office.</p>";s:14:"engagementtype";a:1:{i:0;s:8:"Contract";}s:15:"payrateguidance";s:26:"<p>Pay Rate: 18hr 1099</p>";s:15:"submissionnotes";s:20:"<p>Max BR 27/ hr</p>";s:20:"clientsubmissiontype";a:1:{i:0;s:5:"Email";}}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:14:"General Ledger";}s:3:"tag";a:1:{i:0;s:10:"Accounting";}}}s:11:"frontmatter";s:1311:"title: 'Process Technician'
+date: '2024-01-23T14:28:01.690008Z'
+modified: '2024-01-23T14:50:18.751140Z'
+jobid: 1563263
+currency: USD
+address: '4666 E Faries Pkwy Decatur IL USA 62526-5630'
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/QX7Y43RR'
+hash: QX7Y43RR
+organization: 271590
+salary_min: $18.00/hr
+salary_max: $18.00/yr
+avg_sal: '18.00'
+is_published: true
+is_remote: null
+created_at: '2024-01-23T14:28:01.690008Z'
+updated_at: '2024-01-23T14:50:18.751140Z'
+owner: 22120
+contract_details: temporary
+headcount: 1
+compensation: $18.00/yr
+hired_at: 0
+submitted_at: 0
+interview_at: 0
+custom_fields:
+    jobid: ADMJP00012924
+    archetype: 'General Ledger'
+    managernotes: '<p>Process Technician with the Imaging Team. This is a temporary position.</p><p>Hours are 8:00-4:30 Monday through Friday.</p><p>The successful candidate will be engaged in a wide variety of activities focused on finance and controlling processes. The position will utilize many of ADM''s systems, including IBM and Microsoft Office.</p>'
+    engagementtype:
+        - Contract
+    payrateguidance: '<p>Pay Rate: 18hr 1099</p>'
+    submissionnotes: '<p>Max BR 27/ hr</p>'
+    clientsubmissiontype:
+        - Email
+taxonomy:
+    category:
+        - jobs
+        - 'General Ledger'
+    tag:
+        - Accounting";s:8:"markdown";s:2027:"<p>Gentis Solutions is seeking a Process Technician to join our team. This contract position is with one of our clients interested in full-time consultants. The ideal candidates will have the required skills listed below and will be eligible and open to being hired by our client at the end of the project's duration. If you are qualified, make sure you apply below.<br></p>
+<p>﻿<strong>Requirements</strong></p>
+<ul><li>Proficient in Microsoft Office Suite (Excel, Word, MS Outlook, etc.)</li><li>Experience with Scanning in Oracle Scanning Solution is a plus</li><li>Ability to function independently in a deadline-oriented environment</li><li>Problem-solving and analytical skills</li><li>Flexible, willing to do what it takes to get the task completed within given time frame</li><li>Dependable and desire to learn with a positive attitude</li><li>Ability to effectively communicate, facilitate, and cross-train</li><li>Excellent customer service skills</li><li>Strong attention to detail﻿</li></ul>
+<p><strong>Desirable Skills</strong></p>
+<ul><li>Associate Degree preferred</li><li>Experience with IBM systems is preferred</li><li>Experience with Maximo, JDE preferred</li></ul>
+<p><strong>﻿Typical Duties</strong><br></p>
+<ul><li>Scanning and Indexing ADM Documents</li><li>Provide outstanding customer service for the company's&nbsp;Internal and External Customers by efficiently executing transactional processes</li><li>Effectively plan to define outcomes, identify changes, and implement solutions</li><li>Ensure compliance with all company policies and procedures</li><li>Recommend, develop, and implement process and system improvements to continuously improve efficiency and strengthen controls</li><li>Interact with multiple levels of Accounting, IT, Internal Audit, and Commercial and<br>Operational Management</li><li>Effectively partner with other internal departments to accomplish tasks</li><li>Work efficiently and expediently to accomplish goals</li><li>Work to identify and correct errors</li></ul>";}s:7:"storage";a:6:{s:3:"key";s:34:"jobs/process-technician-qx7-y43-rr";s:11:"storage_key";s:37:"04.jobs/process-technician-qx7-y43-rr";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165874;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165874;}}s:8:"checksum";s:32:"a481e017196aec7a4b2caa506a28cb19";}}

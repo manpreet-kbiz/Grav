@@ -1,0 +1,42 @@
+1706682345
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:44:"jobs/new-product-engineer-inventor-qy8-w9885";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:30:"New Product Engineer/ Inventor";s:4:"date";s:27:"2023-12-14T13:52:07.636447Z";s:8:"modified";s:27:"2023-12-26T14:57:57.377343Z";s:5:"jobid";i:1486864;s:8:"currency";N;s:7:"address";s:0:"";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/QY8W9885";s:4:"hash";s:8:"QY8W9885";s:12:"organization";i:2075414;s:10:"salary_min";s:0:"";s:10:"salary_max";s:0:"";s:7:"avg_sal";s:0:"";s:12:"is_published";b:0;s:9:"is_remote";N;s:10:"created_at";s:27:"2023-12-14T13:52:07.636447Z";s:10:"updated_at";s:27:"2023-12-26T14:57:57.377343Z";s:5:"owner";i:22879;s:16:"contract_details";s:9:"full_time";s:9:"headcount";i:1;s:12:"compensation";s:10:"Negotiable";s:8:"hired_at";i:0;s:12:"submitted_at";i:2;s:12:"interview_at";i:1;s:13:"custom_fields";a:0:{}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:0:"";}s:3:"tag";a:1:{i:0;s:0:"";}}}s:11:"frontmatter";s:656:"title: 'New Product Engineer/ Inventor'
+date: '2023-12-14T13:52:07.636447Z'
+modified: '2023-12-26T14:57:57.377343Z'
+jobid: 1486864
+currency: null
+address: ''
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/QY8W9885'
+hash: QY8W9885
+organization: 2075414
+salary_min: ''
+salary_max: ''
+avg_sal: ''
+is_published: false
+is_remote: null
+created_at: '2023-12-14T13:52:07.636447Z'
+updated_at: '2023-12-26T14:57:57.377343Z'
+owner: 22879
+contract_details: full_time
+headcount: 1
+compensation: Negotiable
+hired_at: 0
+submitted_at: 2
+interview_at: 1
+custom_fields: {  }
+taxonomy:
+    category:
+        - jobs
+        - ''
+    tag:
+        - ''";s:8:"markdown";s:2043:"<p>The successful candidate will work closely with the Global New Technology team (U.S. and Germany) to improve R&amp;D operations and develop new ideas for U.S. products.  The team will create and implement global innovation technologies into Hobart warewash products in close cooperation with regional marketing teams and R&amp;D functions (U.S. and Germany). </p>
+<p>The position will report to the Manager of Global New Technologies located at the Hobart Germany location.</p>
+<p><strong>What you will do:</strong></p>
+<p>The R&amp;D Engineer for Global New Technologies shall primarily be responsible for:</p>
+<ul><li>Identify, observe and understand customer pain points and problems to find solutions.</li><li>Prioritize and validate ideas according to technical and economic criteria.</li><li>Observation and evaluation of potential new technology and market trends.</li><li>Advanced research and development of new technologies and new innovations based on market and customer research, needs, pain points, requirements and regional standards.</li><li>Evaluate technology for use in ware washing equipment.</li><li>Provide innovative engineering solutions for ware washing.</li></ul>
+<h2>Qualifications</h2>
+<p><strong>What we are looking for:</strong></p>
+<ul><li>Innovative thinker</li><li>Ability to work independently and within a team</li><li>Results-oriented</li><li>Excellent written and verbal communications skills</li><li>Analytical mindset</li></ul>
+<p>The successful candidate in this position will spend approximately eight weeks in Germany at the start of this position for orientation and onboarding.  Afterwards, the position will require travel to Europe at least two to three times per year. </p>
+<p><strong>Minimum Qualifications:</strong></p>
+<ul><li>Three or more years of engineering experience</li><li>BS in Engineering; MS preferred</li><li>Knowledgeable in engineering tools like 3-D CAD (Pro Engineer preferred), New Product Development processes</li><li>Willingness to travel up to 15% of the time</li></ul>";}s:7:"storage";a:6:{s:3:"key";s:44:"jobs/new-product-engineer-inventor-qy8-w9885";s:11:"storage_key";s:47:"04.jobs/new-product-engineer-inventor-qy8-w9885";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165872;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165872;}}s:8:"checksum";s:32:"ae5315e8f6210b4388bb61375c391f17";}}

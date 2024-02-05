@@ -1,0 +1,87 @@
+{% extends 'partials/base.html.twig' %}
+
+{% set collection = page.collection() %}
+
+{% block stylesheets %} 
+    {% do assets.addCss('theme://assets/css/bootstrap.min.css') %}
+    {% do assets.addCss('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css', 99) %}
+    {% do assets.addCss('theme://assets/css/job_details.css') %}
+    {% do assets.addCss('theme://assets/css/job_apply_form.css') %}
+    {% do assets.addCss('theme://assets/css/jobs_listing.css') %}
+	{% do assets.addCss('theme://assets/css/test.css') %}
+	{% do assets.addCss('plugins://api_blog/assets/css/filter.css') %}
+	
+{% endblock %}
+
+{% block hero %}
+  <section class="bannerHero">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="bnrcont d-flex flex-column justify-content-center align-items-center">
+					<h1>Find Your Dream Job Here</h1>
+					<!--<p>Gentis website connect job seekers with employers, dddd displaying various job listings.</p>-->
+					  <form action="">
+						<div class="backgrnd_inpt">
+						  <input type="text" name="search" class="form-control search-input" aria-describedby="emailHelp" placeholder="Job title  or keyword"  value="{{ query|e }}" required>
+						<button type="submit" class="btn btn-primary search-submit">Search</button>
+						</div>
+					  </form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock %}
+
+{% block body %}
+    <section class="jobs pt-25 pb-60">
+        {% block item %}
+            <div class="container"> 
+                <div class="row">
+                    <div class="col-lg-3 d-none d-lg-block">
+					{% include 'partials/sidefilter.html.twig' with {all_tags: all_tags} %}
+                    </div>
+                    <div class="col-lg-9 d-none d-lg-block">
+					{% if filterused %}
+					
+						{% if sidebarsearch_result %}
+							{% for child in sidebarsearch_result %}
+								{% include 'partials/job-listplugin-item.html.twig' with {blog: page, page: child} %}
+							{% endfor %}
+						{% else %}
+						
+						    <div>NO Job Found! <a style="color:green;" href="{{ base_url }}/jobs">Reset</a></div>
+                        {% endif %}
+						
+					{% else %}
+						{% if query %}
+                            {% if(search_results) %}
+                                {% for child in search_results %}
+                                    {% include 'partials/job-listplugin-item.html.twig' with {blog: page, page: child} %}
+                                {% endfor %}
+                            {% else %}
+                                <div>NO Job Found! <a style="color:green;" href="/grav/grav-admin/jobs">Reset</a></div>
+                            {% endif %}
+                        {% else %}
+                            {% for child in collection %}
+                                {% include 'partials/job-listplugin-item.html.twig' with {blog: page, page: child} %}
+                            {% endfor %}
+                        {% endif %}
+
+                        {% if config.plugins.pagination.enabled and collection.params.pagination %}
+                            {% include 'partials/pagination.html.twig' with {'base_url': page.url, 'pagination': collection.params.pagination} %}
+                        {% endif %}
+					{% endif %}
+					
+                        
+                    </div>
+                </div>
+            </div>
+        {% endblock %}
+    </section>
+{% endblock %}
+
+{% block mobile %}
+    <!-- Mobile content here -->
+{% endblock %}

@@ -1,0 +1,44 @@
+1706682345
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:32:"jobs/data-entry-clerk-qw964-r5-w";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:26:{s:5:"title";s:16:"Data Entry Clerk";s:4:"date";s:27:"2024-01-10T15:27:26.490675Z";s:8:"modified";s:27:"2024-01-11T15:39:43.290567Z";s:5:"jobid";i:1542574;s:8:"currency";s:3:"USD";s:7:"address";s:47:"4666 E FARIES PKWY, Decatur, IL, USA 62526-5630";s:6:"status";s:6:"active";s:15:"career_page_url";s:48:"https://www.careers-page.com/gentis/job/QW964R5W";s:4:"hash";s:8:"QW964R5W";s:12:"organization";i:271590;s:10:"salary_min";s:0:"";s:10:"salary_max";s:0:"";s:7:"avg_sal";s:0:"";s:12:"is_published";b:1;s:9:"is_remote";N;s:10:"created_at";s:27:"2024-01-10T15:27:26.490675Z";s:10:"updated_at";s:27:"2024-01-11T15:39:43.290567Z";s:5:"owner";i:22120;s:16:"contract_details";s:9:"temporary";s:9:"headcount";i:1;s:12:"compensation";s:10:"Negotiable";s:8:"hired_at";i:0;s:12:"submitted_at";i:28;s:12:"interview_at";i:0;s:13:"custom_fields";a:6:{s:9:"archetype";s:14:"Administrative";s:12:"managernotes";s:58:"<p>Onsite</p><p>Must haves: Typing, 10-key proficiency</p>";s:14:"engagementtype";a:1:{i:0;s:8:"Contract";}s:15:"payrateguidance";s:36:"<p>max w2 -16hr &amp; 1099 -18hr</p>";s:15:"submissionnotes";s:11:"<p>27hr</p>";s:20:"clientsubmissiontype";a:1:{i:0;s:5:"Email";}}s:8:"taxonomy";a:2:{s:8:"category";a:2:{i:0;s:4:"jobs";i:1;s:14:"Administrative";}s:3:"tag";a:1:{i:0;s:10:"Accounting";}}}s:11:"frontmatter";s:987:"title: 'Data Entry Clerk'
+date: '2024-01-10T15:27:26.490675Z'
+modified: '2024-01-11T15:39:43.290567Z'
+jobid: 1542574
+currency: USD
+address: '4666 E FARIES PKWY, Decatur, IL, USA 62526-5630'
+status: active
+career_page_url: 'https://www.careers-page.com/gentis/job/QW964R5W'
+hash: QW964R5W
+organization: 271590
+salary_min: ''
+salary_max: ''
+avg_sal: ''
+is_published: true
+is_remote: null
+created_at: '2024-01-10T15:27:26.490675Z'
+updated_at: '2024-01-11T15:39:43.290567Z'
+owner: 22120
+contract_details: temporary
+headcount: 1
+compensation: Negotiable
+hired_at: 0
+submitted_at: 28
+interview_at: 0
+custom_fields:
+    archetype: Administrative
+    managernotes: '<p>Onsite</p><p>Must haves: Typing, 10-key proficiency</p>'
+    engagementtype:
+        - Contract
+    payrateguidance: '<p>max w2 -16hr &amp; 1099 -18hr</p>'
+    submissionnotes: '<p>27hr</p>'
+    clientsubmissiontype:
+        - Email
+taxonomy:
+    category:
+        - jobs
+        - Administrative
+    tag:
+        - Accounting";s:8:"markdown";s:1560:"<p>Gentis Solutions is seeking a Data Entry Clerk to join our team. This contract position is with one of our clients interested in full-time consultants. The ideal candidates will have the required skills listed below and will be eligible and open to being hired by our client at the end of the project's duration. If you are qualified, make sure you apply below.<br></p>
+<p>﻿<strong>Requirements</strong></p>
+<ul><li>Proficiency in 10-Key data entry</li><li>Competence in Microsoft Windows applications, including Word, Excel, and MS Outlook</li><li>Accuracy and keen attention to detail</li><li>Strong multitasking abilities, excellent organizational skills, and the capability to work independently<br></li><li>Ability to access offices within the plant, including climbing stairs</li><li>Comfortable with prolonged periods of sitting</li><li>Familiarity with filing and bending tasks</li><li>Effective communication skills to convey information professionally and concisely</li><li>Capability to collaborate and work efficiently in a team environment with employees at all levels</li></ul>
+<p><strong>﻿Typical Duties</strong><br></p>
+<ul><li>Maintain records retention and perform data entry tasks</li><li>Track manufacturing inspections and fulfill other departmental document requirements</li><li>Complete Truck and Rail paperwork</li><li>Assist in PolicyTech document management</li><li>Review, scan, and file department paperwork</li><li>Ensure accurate Facility production and inventory metrics and investigate discrepancies accordingly</li></ul>";}s:7:"storage";a:6:{s:3:"key";s:32:"jobs/data-entry-clerk-qw964-r5-w";s:11:"storage_key";s:35:"04.jobs/data-entry-clerk-qw964-r5-w";s:8:"template";s:3:"job";s:17:"storage_timestamp";i:1706165854;s:8:"markdown";a:1:{s:0:"";a:1:{s:3:"job";i:1706165854;}}s:8:"checksum";s:32:"fad1db7ab5a8884920ec6cfe80b9ae43";}}
